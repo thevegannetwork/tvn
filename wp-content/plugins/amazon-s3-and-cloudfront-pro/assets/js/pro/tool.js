@@ -209,6 +209,32 @@
 		},
 
 		/**
+		 * Render pie chart for sidebar tool block using simple trigonometry
+		 */
+		renderPieChart: function() {
+			var percentage, path, angle, radius = 100, coords = [];
+
+			percentage = $( '.as3cf-sidebar.pro .pie-chart' ).data( 'percentage' );
+
+			if ( percentage >= 100 ) {
+				$( '.as3cf-sidebar.pro .pie-chart ~ h4' ).addClass( 'completed' );
+			}
+
+			// Return early no pie chart display
+			if ( percentage < 1 || percentage > 99 ) {
+				return;
+			}
+
+			angle = percentage * 3.6;
+			coords[0] = radius * Math.cos( Math.PI * angle / 180 );
+			coords[1] = radius * Math.sin( Math.PI * angle / 180 );
+			path = 'M0,0 L' + radius + ',0 A' + radius + ',' + radius + ' 0 1,1 ' + coords[0] + ',' + coords[1] + ' Z';
+
+			$( '.as3cf-sidebar.pro .pie-chart ~ h4' ).removeClass( 'completed' );
+			$( '.as3cf-sidebar.pro .pie-chart svg path' ).attr( 'd', path );
+		},
+
+		/**
 		 * Open the Tool modal
 		 */
 		openModal: function() {
@@ -241,6 +267,8 @@
 
 			this.currentlyProcessing = true;
 			this.doingAjax = true;
+
+			as3cfpro.Sidebar.setToolAsProcessing( this.ID );
 
 			$.ajax( {
 				url: ajaxurl,
@@ -288,12 +316,11 @@
 
 			$( '#overlay' ).after( this.$progressContent );
 
+			this.$progressContent.find( '.completed-control' ).hide();
 			this.contentHeight = this.$progressContent.outerHeight();
 			this.$progressContent.css( 'top', '-' + this.contentHeight + 'px' ).show().animate( { 'top': '0px' } );
 			this.progressModalActive = true;
-
-			$( '.upload-controls .cancel' ).after( '<img src="' + as3cfpro.spinnerUrl + '" alt="" class="upload-progress-ajax-spinner general-spinner" />' );
-
+			this.showSpinner();
 			this.setupCounter();
 		},
 
@@ -303,9 +330,9 @@
 		cancel: function() {
 			this.processCancelled = true;
 			this.processPaused = false;
-			$( '.upload-controls' ).fadeOut();
-			$( '.upload-progress-ajax-spinner' ).show();
+			this.disableElements( '.upload-control' );
 			$( '.progress-text' ).html( this.getString( 'completing_current_request' ) );
+			this.showSpinner();
 
 			if ( false === this.doingAjax ) {
 				this.executeNextStep();
@@ -409,16 +436,15 @@
 			if ( true === this.processPaused ) {
 				this.processPaused = false;
 				this.doingAjax = true;
-				$( '.upload-progress-ajax-spinner' ).show();
+				this.showSpinner();
 				$( '.pause-resume' ).html( this.getString( 'pause' ) );
 				// Resume the timer
 				this.elapsedInterval = setInterval( this.count, 1000 );
 				this.executeNextStep();
 			} else {
-				$( this ).off( event ); // Is re-bound at executeNextStep when upload is finally paused
 				this.processPaused = true;
 				this.doingAjax = false;
-				$( '.pause-resume' ).html( this.getString( 'pausing' ) ).addClass( 'disabled' );
+				this.disableElements( '.pause-resume' );
 			}
 
 			this.updateProgressMessage();
@@ -447,6 +473,7 @@
 
 			$( '.progress-content .progress-bar' ).width( this.progressPercent + '%' );
 
+			this.renderPieChart();
 			this.updateProgressMessage();
 		},
 
@@ -512,7 +539,7 @@
 		/**
 		 * Refresh the media to upload notice
 		 */
-		updateNotice: function() {
+		updateSidebar: function() {
 			var self = this;
 
 			$.ajax( {
@@ -521,57 +548,85 @@
 				dataType: 'json',
 				cache: false,
 				data: {
-					action: this.getAjaxAction( 'update_notice' ),
-					nonce: this.getAjaxNonce( 'update_notice' )
+					action: 'as3cfpro_update_sidebar',
+					nonce: as3cfpro.nonces.update_sidebar,
+					tool: self.ID
 				},
 				success: function( response ) {
 					if ( true !== response.success || 'undefined' === typeof response.data ) {
 						return;
 					}
 
-					if ( 'undefined' !== typeof response.data.block ) {
-						self.refreshNotice( self.ID, response.data.block );
-						self.animateProgressBars();
-					}
-
-					if ( 'undefined' !== typeof response.data.error_notice ) {
-						var errors_key = as3cfpro.settings.errors_key_prefix + self.ID;
-
-						if ( $( '#' + errors_key ).length ) {
-							self.refreshNotice( errors_key, response.data.error_notice );
-						} else {
-							var tab = $( '#' + self.ID ).attr( 'data-tab' );
-
-							$( '#tab-' + tab ).prepend( response.data.error_notice );
+					$.each( response.data, function( index, value ) {
+						if ( 'undefined' === typeof value.block ) {
+							return;
 						}
-					}
 
-					if ( 'undefined' !== typeof response.data.custom_notices ) {
-						$.each( response.data.custom_notices, function( index, notice ) {
-							self.refreshNotice( notice.id, notice.html );
-						} );
-					}
+						self.renderSidebarBlock( index, value.block );
+						self.renderErrorNotices( index, value.notices );
+					} );
+
+					self.showSidebarBlocks();
+					self.renderPieChart();
 				}
 			} );
 		},
 
 		/**
-		 * Replace a notice in the DOM
+		 * Render sidebar block.
 		 *
 		 * @param {string} id
 		 * @param {string} html
 		 */
-		refreshNotice: function( id, html ) {
-			if ( ! $( '#' + id ).length ) {
+		renderSidebarBlock: function( id, html ) {
+			var $sidebar = $( '.as3cf-sidebar.pro' );
+
+			$sidebar.find( '#' + id ).remove();
+
+			if ( html.length ) {
+				$sidebar.append( html );
+			}
+		},
+
+		/**
+		 * Show sidebar blocks.
+		 */
+		showSidebarBlocks: function() {
+			var $sidebar = $( '.as3cf-sidebar.pro' );
+			var $blocks = $sidebar.find( '.block' );
+
+			$blocks.sort( function( a, b ) {
+				return a.getAttribute( 'data-priority' ) - b.getAttribute( 'data-priority' );
+			} );
+
+			$blocks.detach().appendTo( $sidebar );
+
+			var tab = $( '.aws-main .nav-tab.nav-tab-active' ).data( 'tab' );
+
+			$blocks.filter( '[data-tab="' + tab + '"]' ).show();
+		},
+
+		/**
+		 * Render error notices.
+		 *
+		 * @param {string} id
+		 * @param {bool|object} notices
+		 */
+		renderErrorNotices: function( id, notices ) {
+			if ( 'undefined' === typeof notices || false === notices ) {
 				return;
 			}
 
-			var remove_id = id + '-remove';
+			var $notice = $( '#' + as3cfpro.settings.errors_key_prefix + id );
+			var tab = $( '#' + this.ID ).attr( 'data-tab' );
 
-			$( '#' + id ).attr( 'id', remove_id );
-			$( '#' + remove_id ).after( html );
-			$( '#' + remove_id ).remove();
-			$( '#' + id ).show();
+			if ( $notice.length ) {
+				$notice.remove();
+			}
+
+			$.each( notices, function( index, notice ) {
+				$( '#tab-' + tab ).prepend( notice );
+			} );
 		},
 
 		/**
@@ -695,11 +750,14 @@
 			this.doingAjax = false;
 			this.nonFatalErrors = false;
 
+			self.transitionActiveControls( '.completed-control' );
 			$( '.progress-label' ).remove();
-			$( '.upload-progress-ajax-spinner' ).remove();
+			this.hideSpinner();
 			$( '.close-progress-content' ).show();
 			$( '#overlay' ).css( 'cursor', 'pointer' );
 			clearInterval( this.elapsedInterval );
+
+			as3cfpro.Sidebar.setToolAsIdle( this.ID );
 
 			$.ajax( {
 				url: ajaxurl,
@@ -712,8 +770,7 @@
 					completed: this.itemsProcessed
 				},
 				success: function() {
-					// Refresh upload notices on settings page behind modal
-					self.updateNotice();
+					self.updateSidebar();
 				}
 			} );
 
@@ -725,7 +782,7 @@
 		 */
 		processComplete: function() {
 			var self = as3cfpro.tool;
-			$( '.upload-controls' ).fadeOut();
+			self.transitionActiveControls( '.completed-control' );
 
 			self.currentlyProcessing = false;
 
@@ -736,23 +793,44 @@
 		},
 
 		/**
+		 * Set the visible controls with a nice transition.
+		 *
+		 * This fades out any controls which are currently active, but are not in the new selection of active controls.
+		 * Any controls to be activated are faded in only after all previous animations are complete.
+		 *
+		 * Active controls are transitioned only when there is a change in active state,
+		 * which is stored as `data` on the element.
+		 *
+		 * @param {string} activeSelectors All control selectors to be shown.
+		 */
+		transitionActiveControls: function( activeSelectors ) {
+			var controls = as3cfpro.tool.$progressContent.find( '.controls-row' );
+
+			// Bail if the controls to show are already active
+			if ( controls.data( 'active-controls' ) === controls ) {
+				return;
+			} else {
+				controls.data( 'active-controls', controls );
+			}
+
+			$.when( controls.find( '.control' ).not( activeSelectors ).fadeOut() ).done( function() {
+				controls.find( activeSelectors ).fadeIn();
+			} );
+		},
+
+		/**
 		 * Execute the next method
 		 */
 		executeNextStep: function() {
 			var self = as3cfpro.tool;
 
 			if ( true === self.processPaused ) {
-				$( '.upload-progress-ajax-spinner' ).hide();
+				this.hideSpinner();
 				// Pause the timer
 				clearInterval( self.elapsedInterval );
 				$( '.progress-text' ).html( self.getString( 'paused' ) );
-				// Re-bind Pause/Resume button to Resume when we are finally Paused
-				$( 'body' ).on( 'click', '.pause-resume', function( event ) {
-					self.setPauseResumeButton( event );
-				} );
-				$( '.pause-resume' ).html( self.getString( 'resume' ) ).removeClass( 'disabled' );
-
-				return;
+				$( '.pause-resume' ).html( self.getString( 'resume' ) );
+				this.enableElements( '.pause-resume' );
 			} else if ( true === self.processCancelled ) {
 				$( '.progress-text' ).html( self.getString( 'process_cancelled' ) );
 				self.processCompleteEvents();
@@ -793,7 +871,7 @@
 			$( '.progress-title' ).html( self.getString( 'process_failed' ) );
 			$( '.progress-text' ).addClass( 'upload-error' );
 			$( '.progress-text' ).html( error );
-			$( '.upload-controls' ).fadeOut();
+			$( '.upload-control' ).fadeOut();
 			self.doingAjax = false;
 		},
 
@@ -830,13 +908,13 @@
 			if ( 'undefined' !== typeof data.errors ) {
 				var $errorCount = $( '.progress-errors-title .error-count' );
 
-				$.each( data.errors, function( index, value ) {
-					$( '.progress-errors .progress-errors-detail ol' ).append( '<li>' + value + '</li>' );
-					this.nonFatalErrors = true;
-				} );
+				if ( 'string' === typeof data.errorsHtml ) {
+					$( '.progress-errors .progress-errors-detail' ).html( data.errorsHtml );
+				}
 
 				if ( data.error_count > 0 ) {
-					$( '.progress-errors' ).show();
+					this.$progressContent.find( '.progress-errors-title' ).show();
+					this.nonFatalErrors = true;
 				}
 
 				$errorCount.html( data.error_count );
@@ -859,6 +937,8 @@
 			} );
 			this.processCompleted = false;
 			this.progressModalActive = false;
+
+			as3cfpro.tool.renderPieChart();
 		},
 
 		/**
@@ -868,8 +948,114 @@
 			if ( true === this.progressModalActive && true === this.processCompleted ) {
 				this.hideOverlay();
 			}
-		}
+		},
 
+		/**
+		 * Disable the given collection of elements.
+		 *
+		 * @param {string|Element|Array|jQuery} elements Any valid jQuery query parameter
+		 */
+		disableElements: function( elements ) {
+			$( elements ).addClass( 'disabled' ).prop( 'disabled', true );
+		},
+
+		/**
+		 * Enable the given collection of elements.
+		 *
+		 * @param {string|Element|Array|jQuery} elements Any valid jQuery query parameter
+		 */
+		enableElements: function( elements ) {
+			$( elements ).removeClass( 'disabled' ).prop( 'disabled', false );
+		},
+
+		/**
+		 * Display the spinner.
+		 */
+		showSpinner: function() {
+			as3cfpro.tool.$progressContent.find( '.spinner' ).addClass( 'spinning' );
+		},
+
+		/**
+		 * Hide the spinner.
+		 */
+		hideSpinner: function() {
+			as3cfpro.tool.$progressContent.find( '.spinner' ).removeClass( 'spinning' );
+		},
+
+		/**
+		 * Dismiss all tool errors for a media library item.
+		 *
+		 * @param event Event
+		 */
+		dismissAllItemErrors: function( event ) {
+			event.preventDefault();
+
+			var $dismissTrigger = $( this );
+			var $media = $dismissTrigger.closest( '.media-error' );
+			var mediaId = $media.data( 'mediaId' );
+
+			// Tool ID must be set before the ajax call
+			as3cfpro.tool.ID = $dismissTrigger.closest( '[data-tool]' ).data( 'tool' );
+
+			$dismissTrigger.addClass( 'dismissed' );
+
+			as3cfpro.tool.ajaxDismissItemErrors( {
+				media_id: mediaId,
+				blog_id: $media.data( 'blogId' ),
+				errors: 'all'
+			} ).done( function( response ) {
+
+				// Select all instances within all tool lists on the page
+				$( '[data-action="dismiss-item-errors"]', '.as3cf-' + as3cfpro.tool.ID + '-notice-list .media-error-' + mediaId ).fadeOut( 'slow' );
+
+				var $mediaError = $( '.media-error-' + mediaId, '.as3cf-' + as3cfpro.tool.ID + '-notice-list' );
+				$mediaError.find( '.dismiss-item-errors' ).hide();
+				$mediaError.find( '.media-error-message' ).addClass( 'dismissed' );
+			} ).fail( as3cfpro.tool.ajaxError );
+		},
+
+		/**
+		 * Dismiss an individual error.
+		 *
+		 * @param event Event
+		 */
+		dismissError: function( event ) {
+			event.preventDefault();
+
+			var $media = $( this ).closest( '.media-error' );
+			var $errorItem = $( this ).closest( '.media-error-message' );
+			var mediaId = $media.data( 'mediaId' );
+
+			// Tool ID must be set before the ajax call
+			as3cfpro.tool.ID = $( this ).closest( '[data-tool]' ).data( 'tool' );
+
+			as3cfpro.tool.ajaxDismissItemErrors( {
+				media_id: mediaId,
+				blog_id: $media.data( 'blogId' ),
+				errors: $errorItem.data( 'idx' )
+			} ).done( function( response ) {
+
+				// Select all instances within all tool lists on the page
+				var $mediaError = $( '.media-error-' + mediaId, '.as3cf-' + as3cfpro.tool.ID + '-notice-list' );
+				$mediaError.find( '.media-error-message-' + $errorItem.data( 'idx' ) ).addClass( 'dismissed' );
+			} ).fail( as3cfpro.tool.ajaxError );
+		},
+
+		/**
+		 * Send AJAX request to dismiss errors for the current tool.
+		 *
+		 * @param data
+		 *
+		 * @returns {*|$.promise}
+		 */
+		ajaxDismissItemErrors: function( data ) {
+			data = $.extend( data || {}, {
+				action: as3cfpro.tool.getAjaxAction( 'dismiss_errors' ),
+				nonce: as3cfpro.tool.getAjaxNonce( 'dismiss_errors' )
+			} );
+
+			return $.post( ajaxurl, data );
+		}
 	};
 
 	window.onbeforeunload = function( e ) {
@@ -898,45 +1084,46 @@
 		as3cfpro.tool.openFromURL();
 
 		// Animate sidebar progress bars
-		as3cfpro.tool.animateProgressBars();
+		as3cfpro.tool.renderPieChart();
 
 		// Display Tool Modal
 		$( 'body' ).on( 'click', 'a.as3cf-pro-tool', function( e ) {
 			e.preventDefault();
-			as3cfpro.tool.open( $( this ).parent().attr( 'id' ) );
+
+			if ( $( e.target ).hasClass( 'disabled' ) ) {
+				return;
+			}
+
+			as3cfpro.tool.open( $( this ).closest( '.block' ).attr( 'id' ) );
 		} );
 
 		// Handle Pause / Resumes clicks
-		$( 'body' ).on( 'click', '.pause-resume', function( event ) {
-			as3cfpro.tool.setPauseResumeButton( event );
-		} );
+		$( 'body' ).on( 'click', '.progress-content .pause-resume', as3cfpro.tool.setPauseResumeButton.bind( as3cfpro.tool ) );
 
 		// Handles Cancel clicks
-		$( 'body' ).on( 'click', '.cancel', function() {
-			as3cfpro.tool.cancel();
-		} );
+		$( 'body' ).on( 'click', '.progress-content .cancel', as3cfpro.tool.cancel.bind( as3cfpro.tool ) );
 
 		// Close modal
-		$( 'body' ).on( 'click', '.close-progress-content-button', function( e ) {
-			as3cfpro.tool.hideOverlay();
-		} );
+		$( 'body' ).on( 'click', '.close-progress-content-button', as3cfpro.tool.hideOverlay.bind( as3cfpro.tool ) );
 
 		// Close modal on overlay click when possible
-		$( 'body' ).on( 'click', '#overlay', function() {
-			as3cfpro.tool.maybeHideOverlay();
-		} );
+		$( 'body' ).on( 'click', '#overlay', as3cfpro.tool.maybeHideOverlay.bind( as3cfpro.tool ) );
 
 		$( 'body' ).on( 'click', '.toggle-progress-errors', function( e ) {
 			e.preventDefault();
 			var $toggle = $( this );
-			var $details = $toggle.closest( '.progress-errors-title' ).siblings( '.progress-errors-detail' );
+			var $modal = $toggle.closest( '.progress-content' );
+			var $errors = $modal.find( '.progress-errors' );
 
-			$details.toggle( 0, function() {
-				$toggle.html( $( this ).is( ':visible' ) ? as3cfpro.tool.getString( 'hide' ) : as3cfpro.tool.getString( 'show' ) );
-			} );
-
-			return false;
+			$errors.toggleClass( 'expanded' );
+			$toggle.html( $errors.hasClass( 'expanded' ) ? as3cfpro.tool.getString( 'hide' ) : as3cfpro.tool.getString( 'show' ) );
 		} );
+
+		// Dismiss all errors for a media library item
+		$( 'body' ).on( 'click', '.media-error [data-action="dismiss-item-errors"]', as3cfpro.tool.dismissAllItemErrors );
+
+		// Dismiss an individual error message for a media library item (eg: image size)
+		$( 'body' ).on( 'click', '.media-error [data-action="dismiss-error"]', as3cfpro.tool.dismissError );
 
 		// Show / hide helper description
 		$( 'body' ).on( 'click', '.general-helper', function( e ) {

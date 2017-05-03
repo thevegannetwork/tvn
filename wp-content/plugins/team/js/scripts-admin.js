@@ -3,18 +3,21 @@ jQuery(document).ready(function($)
 	{
 
 		
-		$(document).on('click', '.team-grid-builder .item .header', function()
+		$(document).on('click', '#team_metabox .team-grid-builder .expand', function()
 			{	
 			
-				if($(this).parent().hasClass('active'))
+				//alert('Hello');
+			
+				if($(this).parent().parent().hasClass('active'))
 					{
-						$(this).parent().removeClass('active');
+					$(this).parent().parent().removeClass('active');
 					}
 				else
 					{
-						$(this).parent().addClass('active');
+						$(this).parent().parent().addClass('active');
 					}
 				
+
 			})	
 		
 		

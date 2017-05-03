@@ -3,8 +3,8 @@ Contributors: tillkruess
 Donate link: https://www.paypal.me/tillkruss
 Tags: redis, predis, hhvm, pecl, caching, cache, object cache, wp object cache, server, performance, optimize, speed, load, replication, clustering
 Requires at least: 3.3
-Tested up to: 4.6
-Stable tag: 1.3.4
+Tested up to: 4.7
+Stable tag: 1.3.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -24,45 +24,45 @@ Forked from Eric Mann's and Erick Hitter's [Redis Object Cache](https://github.c
 
 For detailed installation instructions, please read the [standard installation procedure for WordPress plugins](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins).
 
-1. Make sure [Redis in installed and running](http://redis.io/topics/quickstart).
+1. Make sure [Redis is installed and running](http://redis.io/topics/quickstart).
 2. Install and activate plugin.
 3. Enable the object cache under _Settings -> Redis_.
 4. If necessary, adjust [connection parameters](http://wordpress.org/extend/plugins/redis-cache/other_notes/).
 
-If you server doesn't support the [WordPress Filesystem API](https://codex.wordpress.org/Filesystem_API), you have to manually copy the `object-cache.php` file from the `/plugins/redis-cache/includes/` directory to the `/wp-content/` directory.
+If your server doesn't support the [WordPress Filesystem API](https://codex.wordpress.org/Filesystem_API), you have to manually copy the `object-cache.php` file from the `/plugins/redis-cache/includes/` directory to the `/wp-content/` directory.
 
 
 == Connection Parameters ==
 
 By default the object cache drop-in will connect to Redis over TCP at `127.0.0.1:6379` and select database `0`.
 
-To adjust the connection parameters, define any of following constants in your `wp-config.php` file.
+To adjust the connection parameters, define any of the following constants in your `wp-config.php` file.
 
-  * `WP_REDIS_CLIENT` [default: not set]
+  * `WP_REDIS_CLIENT` (default: _not set_)
 
       Specifies the client used to communicate with Redis. Supports `hhvm`, `pecl` and `predis`.
 
-  * `WP_REDIS_SCHEME` [default: `tcp`]
+  * `WP_REDIS_SCHEME` (default: `tcp`)
 
       Specifies the protocol used to communicate with an instance of Redis. Internally the client uses the connection class associated to the specified connection scheme. Supports `tcp` (TCP/IP), `unix` (UNIX domain sockets), `tls` (transport layer security) or `http` (HTTP protocol through Webdis).
 
-  * `WP_REDIS_HOST` [default: `127.0.0.1`]
+  * `WP_REDIS_HOST` (default: `127.0.0.1`)
 
       IP or hostname of the target server. This is ignored when connecting to Redis using UNIX domain sockets.
 
-  * `WP_REDIS_PORT` [default: `6379`]
+  * `WP_REDIS_PORT` (default: `6379`)
 
       TCP/IP port of the target server. This is ignored when connecting to Redis using UNIX domain sockets.
 
-  * `WP_REDIS_PATH` [default: not set]
+  * `WP_REDIS_PATH` (default: _not set_)
 
       Path of the UNIX domain socket file used when connecting to Redis using UNIX domain sockets.
 
-  * `WP_REDIS_DATABASE` [default: `0`]
+  * `WP_REDIS_DATABASE` (default: `0`)
 
       Accepts a numeric value that is used to automatically select a logical database with the `SELECT` command.
 
-  * `WP_REDIS_PASSWORD` [default: not set]
+  * `WP_REDIS_PASSWORD` (default: _not set_)
 
       Accepts a value used to authenticate with a Redis server protected by password with the `AUTH` command.
 
@@ -71,11 +71,11 @@ To adjust the connection parameters, define any of following constants in your `
 
 To adjust the configuration, define any of the following constants in your `wp-config.php` file.
 
-  * `WP_CACHE_KEY_SALT` [default: not set]
+  * `WP_CACHE_KEY_SALT` (default: _not set_)
 
     Set the prefix for all cache keys. Useful in setups where multiple installs share a common `wp-config.php` or `$table_prefix`, to guarantee uniqueness of cache keys.
 
-  * `WP_REDIS_MAXTTL` [default: not set]
+  * `WP_REDIS_MAXTTL` (default: _not set_)
 
     Set maximum time-to-live (in seconds) for cache keys with an expiration time of `0`.
 
@@ -86,6 +86,10 @@ To adjust the configuration, define any of the following constants in your `wp-c
   * `WP_REDIS_IGNORED_GROUPS` (default: `['counts', 'plugins']`)
 
     Set the cache groups that should not be cached in Redis.
+
+  * `WP_REDIS_DISABLED` (default: _not set_)
+
+    Set to `true` to disable the object cache at runtime.
 
 
 == Replication & Clustering ==
@@ -145,6 +149,22 @@ The following commands are supported:
 
 
 == Changelog ==
+
+= 1.3.5 =
+
+  * Added basic diagnostics to admin interface
+  * Added `WP_REDIS_DISABLED` constant to disable cache at runtime
+  * Prevent "Invalid plugin header" error
+  * Return integer from `increment()` and `decrement()` methods
+  * Prevent object cache from being instantiated more than once
+  * Always separate cache key `prefix` and `group` by semicolon
+  * Improved performance of `build_key()`
+  * Only apply `redis_object_cache_get` filter if callbacks have been registered
+  * Fixed `add_or_replace()` to only set cache key if it doesn't exist
+  * Added `redis_object_cache_flush` action
+  * Added `redis_object_cache_enable` action
+  * Added `redis_object_cache_disable` action
+  * Added `redis_object_cache_update_dropin` action
 
 = 1.3.4 =
 
@@ -242,6 +262,14 @@ The following commands are supported:
 
 
 == Upgrade Notice ==
+
+= 1.3.5 =
+
+This update contains various changes, including performance improvements and better Batcache compatibility.
+
+= 1.3.4 =
+
+This update contains several improvements, including WP CLI and WordPress 4.6 support.
 
 = 1.3.3 =
 

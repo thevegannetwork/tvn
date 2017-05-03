@@ -1,5 +1,13 @@
 <?php
 
+use DeliciousBrains\WP_Offload_S3\Pro\Integration_Manager;
+use DeliciousBrains\WP_Offload_S3\Pro\Integrations\Advanced_Custom_Fields;
+use DeliciousBrains\WP_Offload_S3\Pro\Sidebar_Presenter;
+use DeliciousBrains\WP_Offload_S3\Pro\Tools\Download_And_Remover;
+use DeliciousBrains\WP_Offload_S3\Pro\Tools\Downloader;
+use DeliciousBrains\WP_Offload_S3\Pro\Tools\Remove_Local_Files;
+use DeliciousBrains\WP_Offload_S3\Pro\Tools\Uploader;
+
 class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 
 	/**
@@ -13,27 +21,23 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 	protected $licence;
 
 	/**
-	 * The registered tools
-	 *
-	 * @var array
+	 * @var Integration_Manager
 	 */
-	public static $tools = array();
+	protected $integrations;
 
 	/**
-	 * @var AS3CF_Uploader
+	 * @var Sidebar_Presenter
 	 */
-	public $legacy_upload;
-
-	/**
-	 * @var AS3CF_Downloader
-	 */
-	public $s3_downloader;
+	protected $sidebar;
 
 	/**
 	 * @param string              $plugin_file_path
 	 * @param Amazon_Web_Services $aws aws plugin
 	 */
-	function __construct( $plugin_file_path, $aws ) {
+	public function __construct( $plugin_file_path, $aws ) {
+		$this->integrations = Integration_Manager::get_instance();
+		$this->sidebar      = Sidebar_Presenter::get_instance( $this );
+
 		parent::__construct( $plugin_file_path, $aws );
 	}
 
@@ -42,11 +46,13 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 	 *
 	 * @param string $plugin_file_path
 	 */
-	function init( $plugin_file_path ) {
+	public function init( $plugin_file_path ) {
 		parent::init( $plugin_file_path );
 
-		// licence and updates handler
-		$this->licence = new AS3CF_Pro_Licences_Updates( $this );
+		// Licence and updates handler
+		if ( is_admin() ) {
+			$this->licence = new AS3CF_Pro_Licences_Updates( $this );
+		}
 
 		// add our custom CSS classes to <body>
 		add_filter( 'admin_body_class', array( $this, 'admin_body_class' ) );
@@ -57,13 +63,14 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 		// so we don't disable the license and updates functionality when disabled
 		if ( self::is_compatible() ) {
 			$this->enable_plugin();
+			$this->enable_integrations();
 		}
 	}
 
 	/**
 	 * aws_admin_menu event handler.
 	 */
-	function aws_admin_menu() {
+	public function aws_admin_menu() {
 		global $as3cf;
 		add_action( 'load-' . $as3cf->hook_suffix, array( $this, 'load_assets' ), 11 );
 	}
@@ -71,7 +78,7 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 	/**
 	 * Enable the complete plugin when compatible
 	 */
-	function enable_plugin() {
+	public function enable_plugin() {
 		add_action( 'load-upload.php', array( $this, 'load_media_pro_assets' ), 11 );
 
 		// Pro customisations
@@ -90,7 +97,6 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 		// Ajax handlers
 		add_action( 'wp_ajax_as3cfpro_process_media_action', array( $this, 'ajax_process_media_action' ) );
 		add_action( 'wp_ajax_as3cfpro_update_acl', array( $this, 'ajax_update_acl' ) );
-		add_action( 'wp_ajax_as3cfpro_render_sidebar_tools', array( $this, 'ajax_render_sidebar_tools' ) );
 
 		// Settings link on the plugins page
 		add_filter( 'plugin_action_links', array( $this, 'plugin_actions_settings_link' ), 10, 2 );
@@ -101,21 +107,18 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 		// Include compatibility code for other plugins
 		$this->plugin_compat = new AS3CF_Pro_Plugin_Compatibility( $this );
 
-		// Tools
-		add_action( 'as3cf_after_settings', array( $this, 'render_tools_sidebar' ) );
-
-		$this->legacy_upload = new AS3CF_Uploader( $this );
-		$this->legacy_upload->init();
-
-		$this->s3_downloader = new AS3CF_Downloader( $this );
-		$this->s3_downloader->init();
+		// Register tools
+		$this->sidebar->register_tool( new Uploader( $this ) );
+		$this->sidebar->register_tool( new Downloader( $this ) );
+		$this->sidebar->register_tool( new Download_And_Remover( $this ) );
+		$this->sidebar->register_tool( new Remove_Local_Files( $this ), 'background' );
 	}
 
 	/**
-	 * Render the Pro sidebar with tools
+	 * Enable integrations.
 	 */
-	public function render_tools_sidebar() {
-		$this->render_view( 'sidebar' );
+	public function enable_integrations() {
+		$this->integrations->register_integration( 'acf', new Advanced_Custom_Fields( $this ) );
 	}
 
 	/**
@@ -142,15 +145,10 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 		$src = plugins_url( 'assets/js/pro/script' . $suffix . '.js', $this->plugin_file_path );
 		wp_enqueue_script( 'as3cf-pro-script', $src, array( 'jquery', 'underscore' ), $version, true );
 
-
-		$nonces = array(
-			'render_sidebar_tools' => wp_create_nonce( 'render-sidebar-tools' ),
-		);
-
 		$localized_args = array(
 			'settings' => apply_filters( 'as3cfpro_js_settings', array() ),
 			'strings'  => apply_filters( 'as3cfpro_js_strings', array() ),
-			'nonces'   => apply_filters( 'as3cfpro_js_nonces', $nonces ),
+			'nonces'   => apply_filters( 'as3cfpro_js_nonces', array() ),
 		);
 
 		wp_localize_script( 'as3cf-pro-script', 'as3cfpro', $localized_args );
@@ -451,6 +449,7 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 			'acl'         => $acl,
 			'acl_display' => $this->get_acl_display_name( $acl ),
 			'title'       => $title,
+			'url'         => $this->get_attachment_url( $id ),
 		);
 
 		if ( is_wp_error( $update ) ) {
@@ -528,12 +527,35 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 			return false;
 		}
 
-		if ( ! current_user_can( apply_filters( 'as3cfpro_media_actions_capability', 'manage_options' ) ) ) {
-			// Abort if the user doesn't have desired capabilities
-			return false;
+		return $this->user_can_use_media_actions();
+	}
+
+	/**
+	 * Check if the given user can use on-demand S3 media actions.
+	 *
+	 * @param null|int|WP_User $user  User to check. Defaults to current user.
+	 *
+	 * @return bool
+	 */
+	public function user_can_use_media_actions( $user = null ) {
+		$user = $user ? $user : wp_get_current_user();
+
+		if ( user_can( $user, 'use_as3cf_media_actions' ) ) {
+			return true;
 		}
 
-		return true;
+		/**
+		 * The default capability for using on-demand S3 media actions.
+		 *
+		 * @param string $capability Registered capability identifier
+		 */
+		$capability = apply_filters( 'as3cfpro_media_actions_capability', 'manage_options' );
+
+		if ( user_can( $user, $capability ) ) {
+			return true;
+		}
+
+		return false;
 	}
 
 	/**
@@ -1007,7 +1029,7 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 
 		foreach ( $file_paths as $file_path ) {
 			if ( ! file_exists( $file_path ) ) {
-				$file_name   = basename( $file_path );
+				$file_name   = wp_basename( $file_path );
 				$downloads[] = array(
 					'Key'    => $prefix . $file_name,
 					'SaveAs' => $file_path,
@@ -1294,51 +1316,21 @@ class Amazon_S3_And_CloudFront_Pro extends Amazon_S3_And_CloudFront {
 	}
 
 	/**
-	 * Register a tool
+	 * Callback to render tool errors.
 	 *
-	 * @param string $tool
+	 * @param string $name
 	 */
-	public function register_tool( $tool ) {
-		if ( ! in_array( $tool, self::$tools ) ) {
-			self::$tools[] = $tool;
-		}
-	}
+	protected function render_tool_errors_callback( $name ) {
+		$tool = $this->sidebar->get_tool( $name );
 
-	/**
-	 * Callback to render the tool errors for the notice
-	 *
-	 * @param string $tool
-	 */
-	protected function tools_error_notice_callback( $tool ) {
-		if ( ! isset( $this->{$tool} ) ) {
+		if ( ! $tool ) {
 			return;
 		}
 
-		$errors = $this->{$tool}->get_errors();
-
-		$this->render_view( 'tool-errors', array( 'errors' => $errors ) );
-	}
-
-	/**
-	 * AJAX callback for rendering the output of the sidebar tool blocks
-	 */
-	public function ajax_render_sidebar_tools() {
-		check_ajax_referer( 'render-sidebar-tools', 'nonce' );
-
-		$tools_html = '';
-
-		foreach( self::$tools as $tool ) {
-			if ( ! isset( $this->{$tool} ) ) {
-				continue;
-			}
-
-			ob_start();
-			$this->{$tool}->render_sidebar_block();
-			$tools_html .= ob_get_contents();
-			ob_end_clean();
-		}
-
-		wp_send_json_success( $tools_html );
+		$this->render_view( 'tool-errors', array(
+			'tool'   => $name,
+			'errors' => $tool->get_errors(),
+		) );
 	}
 
 }

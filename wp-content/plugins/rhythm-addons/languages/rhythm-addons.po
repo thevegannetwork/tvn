@@ -1,0 +1,664 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rhythm Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-21 10:18+0200\n"
+"PO-Revision-Date: 2016-06-21 10:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: Medialayout\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: rhythm-addons\n"
+
+#: rhythm-addons/composer/helpers.php:878
+msgid "Default"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1468 rhythm-addons/composer/map.php:1547
+#: rhythm-addons/composer/map.php:1624 rhythm-addons/composer/map.php:1690
+#: rhythm-addons/composer/map.php:3024 rhythm-addons/composer/map.php:3151
+msgid "ID"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1469 rhythm-addons/composer/map.php:1548
+#: rhythm-addons/composer/map.php:1625 rhythm-addons/composer/map.php:1691
+#: rhythm-addons/composer/map.php:3025 rhythm-addons/composer/map.php:3152
+msgid "Author"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1470 rhythm-addons/composer/map.php:1549
+#: rhythm-addons/composer/map.php:1626 rhythm-addons/composer/map.php:1692
+#: rhythm-addons/composer/map.php:3026 rhythm-addons/composer/map.php:3153
+msgid "Post Title"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1471 rhythm-addons/composer/map.php:1550
+#: rhythm-addons/composer/map.php:1627 rhythm-addons/composer/map.php:1693
+#: rhythm-addons/composer/map.php:3027 rhythm-addons/composer/map.php:3154
+#: rhythm-addons/composer/map.php:4727 rhythm-addons/composer/map.php:4806
+msgid "Date"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1472 rhythm-addons/composer/map.php:1551
+#: rhythm-addons/composer/map.php:1628 rhythm-addons/composer/map.php:1694
+#: rhythm-addons/composer/map.php:3028 rhythm-addons/composer/map.php:3155
+msgid "Last Modified"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1473 rhythm-addons/composer/map.php:1552
+#: rhythm-addons/composer/map.php:1629 rhythm-addons/composer/map.php:1695
+#: rhythm-addons/composer/map.php:3029 rhythm-addons/composer/map.php:3156
+msgid "Random Order"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1474 rhythm-addons/composer/map.php:1553
+#: rhythm-addons/composer/map.php:1630 rhythm-addons/composer/map.php:1696
+#: rhythm-addons/composer/map.php:3030 rhythm-addons/composer/map.php:3157
+msgid "Comment Count"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:1475 rhythm-addons/composer/map.php:1554
+#: rhythm-addons/composer/map.php:1631 rhythm-addons/composer/map.php:1697
+#: rhythm-addons/composer/map.php:3031 rhythm-addons/composer/map.php:3158
+msgid "Menu Order"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:3001
+msgid "No"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:3002
+msgid "Yes"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4726 rhythm-addons/composer/map.php:4805
+msgid "Rand"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4728 rhythm-addons/composer/map.php:4807
+msgid "Price"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4729 rhythm-addons/composer/map.php:4808
+msgid "Popularity"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4730 rhythm-addons/composer/map.php:4809
+msgid "Rating"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4731 rhythm-addons/composer/map.php:4810
+msgid "Title"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4740 rhythm-addons/composer/map.php:4819
+msgid "Ascending"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4741 rhythm-addons/composer/map.php:4820
+msgid "Descending"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4751 rhythm-addons/composer/map.php:4830
+msgid "All Products"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4752 rhythm-addons/composer/map.php:4831
+msgid "Featured Products"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4753 rhythm-addons/composer/map.php:4832
+msgid "On-sale Products"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4763
+msgid "Show"
+msgstr ""
+
+#: rhythm-addons/composer/map.php:4764
+msgid "Hide"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:6
+msgctxt "Items"
+msgid "FAQ"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:7
+msgctxt "Item"
+msgid "FAQ"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:8
+#: rhythm-addons/custom-posts/portfolio.php:8
+msgctxt "Item"
+msgid "Add New"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:9
+#: rhythm-addons/custom-posts/portfolio.php:9
+msgid "Add New Item"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:10
+#: rhythm-addons/custom-posts/portfolio.php:10
+msgid "Edit Item"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:11
+#: rhythm-addons/custom-posts/portfolio.php:11
+msgid "New Item"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:12
+#: rhythm-addons/custom-posts/portfolio.php:12
+msgid "All Items"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:13
+#: rhythm-addons/custom-posts/portfolio.php:13
+msgid "View Item"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:14
+#: rhythm-addons/custom-posts/portfolio.php:14
+msgid "Search Items"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:15
+#: rhythm-addons/custom-posts/portfolio.php:15
+msgid "No Items found"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:16
+#: rhythm-addons/custom-posts/portfolio.php:16
+msgid "No Items found in the Trash"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:18
+msgid "FAQ"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:38
+#: rhythm-addons/custom-posts/portfolio.php:35
+#: rhythm-addons/custom-posts/social-site.php:39
+#: rhythm-addons/custom-posts/testimonial.php:41
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:39
+#: rhythm-addons/custom-posts/portfolio.php:36
+#: rhythm-addons/custom-posts/social-site.php:40
+#: rhythm-addons/custom-posts/testimonial.php:42
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:40
+#: rhythm-addons/custom-posts/portfolio.php:37
+#: rhythm-addons/custom-posts/social-site.php:41
+#: rhythm-addons/custom-posts/testimonial.php:43
+msgid "Search categories"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:41
+#: rhythm-addons/custom-posts/portfolio.php:38
+#: rhythm-addons/custom-posts/social-site.php:42
+#: rhythm-addons/custom-posts/testimonial.php:44
+msgid "All Categories"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:42
+#: rhythm-addons/custom-posts/portfolio.php:39
+#: rhythm-addons/custom-posts/social-site.php:43
+#: rhythm-addons/custom-posts/testimonial.php:45
+msgid "Parent Category"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:43
+#: rhythm-addons/custom-posts/portfolio.php:40
+#: rhythm-addons/custom-posts/social-site.php:44
+#: rhythm-addons/custom-posts/testimonial.php:46
+msgid "Parent Category:"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:44
+#: rhythm-addons/custom-posts/portfolio.php:41
+#: rhythm-addons/custom-posts/social-site.php:45
+#: rhythm-addons/custom-posts/testimonial.php:47
+msgid "Edit Category"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:45
+#: rhythm-addons/custom-posts/portfolio.php:42
+#: rhythm-addons/custom-posts/social-site.php:46
+#: rhythm-addons/custom-posts/testimonial.php:48
+msgid "Update Category"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:46
+#: rhythm-addons/custom-posts/portfolio.php:43
+#: rhythm-addons/custom-posts/social-site.php:47
+#: rhythm-addons/custom-posts/testimonial.php:49
+msgid "Add New Category"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:47
+#: rhythm-addons/custom-posts/portfolio.php:44
+#: rhythm-addons/custom-posts/social-site.php:48
+#: rhythm-addons/custom-posts/testimonial.php:50
+msgid "New Category Name"
+msgstr ""
+
+#: rhythm-addons/custom-posts/faq.php:48
+#: rhythm-addons/custom-posts/portfolio.php:45
+#: rhythm-addons/custom-posts/social-site.php:49
+#: rhythm-addons/custom-posts/social-site.php:77
+#: rhythm-addons/custom-posts/testimonial.php:51
+msgid "Categories"
+msgstr ""
+
+#: rhythm-addons/custom-posts/portfolio.php:6
+msgctxt "Items"
+msgid "Portfolio"
+msgstr ""
+
+#: rhythm-addons/custom-posts/portfolio.php:7
+msgctxt "Item"
+msgid "Portfolio"
+msgstr ""
+
+#: rhythm-addons/custom-posts/portfolio.php:18
+msgid "Portfolio"
+msgstr ""
+
+#: rhythm-addons/custom-posts/portfolio.php:22
+msgid "Holds our products and product specific data"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:6
+#: rhythm-addons/custom-posts/social-site.php:18
+msgid "Social Sites"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:7
+#: rhythm-addons/custom-posts/social-site.php:76
+msgid "Social Site"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:8
+#: rhythm-addons/custom-posts/testimonial.php:9
+msgid "Add New"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:9
+msgid "Add New Social Site"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:10
+msgid "Edit Social Site"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:11
+msgid "New Social Site"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:12
+msgid "All Social Sites"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:13
+msgid "View Social Site"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:14
+msgid "Search Social Sites"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:15
+msgid "No Social Sites found"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:16
+msgid "No Social Sites found in the Trash"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:64
+msgid "http:// Enter URL here"
+msgstr ""
+
+#: rhythm-addons/custom-posts/social-site.php:78
+msgid "Order"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:6
+#: rhythm-addons/custom-posts/team.php:7
+msgctxt "Team"
+msgid "Team"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:8
+msgctxt "Team"
+msgid "Add New"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:9
+msgid "Add New Team Member"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:10
+msgid "Edit Team Memeber"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:11
+msgid "New Team Member"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:12
+msgid "All Team Memebers"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:13
+msgid "View Team"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:14
+msgid "Search Team Member"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:15
+msgid "No Member found"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:16
+msgid "No Team Member found in the Trash"
+msgstr ""
+
+#: rhythm-addons/custom-posts/team.php:18
+msgid "Team"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:7
+#: rhythm-addons/custom-posts/testimonial.php:19
+msgid "Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:10
+msgid "Add New Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:11
+msgid "Edit Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:12
+msgid "New Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:13
+msgid "All Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:14
+msgid "View Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:15
+msgid "Search Testimonials"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:16
+msgid "No Testimonials found"
+msgstr ""
+
+#: rhythm-addons/custom-posts/testimonial.php:17
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_blog_magazine.php:117
+#: rhythm-addons/shortcodes/rs_blog_magazine_alt.php:168
+msgid "Read More"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_blog_magazine.php:156
+#: rhythm-addons/shortcodes/rs_blog_magazine_alt.php:203
+msgid "Posted by"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_blog_magazine_alt.php:158
+msgid "No Comments"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_blog_magazine_alt.php:158
+msgid "1 Comment"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_blog_magazine_alt.php:158
+msgid "% Comments"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_blog_slider.php:88
+msgid "in"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_latest_works.php:123
+msgid "All works"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_portfolio_promo.php:126
+msgid "View online"
+msgstr ""
+
+#: rhythm-addons/shortcodes/rs_promo_slider.php:190
+msgid "You must have an HTML5 capable browser."
+msgstr ""
+
+#: rhythm-addons/theme-plugins.php:90
+msgid "Please activate the Rhythm theme to use Rhythem Addons plugin."
+msgstr ""
+
+#: rhythm-addons/theme-plugins.php:94
+msgid "Activate theme"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Feature_Box_Widget.class.php:12
+msgid "Displays feature box"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Feature_Box_Widget.class.php:13
+msgid "Rhythm: Feature Box"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Feature_Box_Widget.class.php:96
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:121
+#: rhythm-addons/widgets/WP_Latest_Comments_Widget.class.php:125
+#: rhythm-addons/widgets/WP_Latest_Posts_Widget.class.php:103
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:156
+#: rhythm-addons/widgets/WP_Newsletter_Widget.class.php:86
+#: rhythm-addons/widgets/WP_Rhythm_Categories_Widget.class.php:126
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:98
+msgid "Title:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Feature_Box_Widget.class.php:99
+msgid "Icon:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Feature_Box_Widget.class.php:109
+msgid "Subtitle"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Feature_Box_Widget.class.php:112
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:120
+msgid "Content:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:12
+msgid "Displays list of buttons"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:13
+msgid "Rhythm: Follow Us"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:55
+msgid "Facebook"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:56
+msgid "Twitter"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:57
+msgid "Google+"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:58
+msgid "Pinterest"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:59
+msgid "YouTube"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:60
+msgid "LinkedIn"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:61
+msgid "RSS"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:124
+msgid "Facebook URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:127
+msgid "Twitter URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:130
+msgid "Google Plus URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:133
+msgid "Pinterest URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:136
+msgid "Youtube URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:139
+msgid "LinkedIn URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Follow_Us_Widget.class.php:142
+msgid "RSS URL:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Comments_Widget.class.php:12
+#: rhythm-addons/widgets/WP_Latest_Posts_Widget.class.php:12
+msgid "Displays the most latest posts"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Comments_Widget.class.php:13
+msgid "Rhythm: Latest Comments"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Comments_Widget.class.php:44
+msgid "Latest Comments"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Comments_Widget.class.php:128
+#: rhythm-addons/widgets/WP_Latest_Posts_Widget.class.php:106
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:159
+msgid "Number of posts to show:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Posts_Widget.class.php:13
+msgid "Rhythm: Latest Posts"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Posts_Widget.class.php:46
+msgid "Popular Posts"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Latest_Posts_Widget.class.php:62
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:81
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:111
+#, php-format
+msgid "Posted by %s"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:12
+msgid "Displays popular and latests posts on tabs"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:13
+msgid "Rhythm: Multi Tabs"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:58
+msgid "Popular"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Multi_Tabs_Widget.class.php:61
+msgid "Latest"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Newsletter_Widget.class.php:12
+msgid "Add newsletter"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Newsletter_Widget.class.php:13
+msgid "Rhythm: Newsletter"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Newsletter_Widget.class.php:89
+msgid "Form ID (Content):"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Rhythm_Categories_Widget.class.php:12
+msgid "Displays list of categories"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Rhythm_Categories_Widget.class.php:13
+msgid "Rhythm Categories"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:12
+msgid "Displays text block with image"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:13
+msgid "Rhythm: Text Block With Image"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:102
+msgid "Rounded"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:105
+msgid "Upload:"
+msgstr ""
+
+#: rhythm-addons/widgets/WP_Text_Image_Widget.class.php:113
+msgid "Align:"
+msgstr ""

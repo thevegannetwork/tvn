@@ -3,7 +3,7 @@
 Plugin Name: Redis Object Cache
 Plugin URI: https://wordpress.org/plugins/redis-cache/
 Description: A persistent object cache backend powered by Redis. Supports Predis, PhpRedis, HHVM, replication, clustering and WP-CLI.
-Version: 1.3.4
+Version: 1.3.5
 Text Domain: redis-cache
 Domain Path: /languages
 Author: Till Krüss
@@ -308,16 +308,19 @@ class RedisObjectCache {
 
 						case 'enable-cache':
 							$result = $wp_filesystem->copy( plugin_dir_path( __FILE__ ) . '/includes/object-cache.php', WP_CONTENT_DIR . '/object-cache.php', true );
+							do_action( 'redis_object_cache_enable', $result );
 							$message = $result ? 'cache-enabled' : 'enable-cache-failed';
 							break;
 
 						case 'disable-cache':
 							$result = $wp_filesystem->delete( WP_CONTENT_DIR . '/object-cache.php' );
+							do_action( 'redis_object_cache_disable', $result );
 							$message = $result ? 'cache-disabled' : 'disable-cache-failed';
 							break;
 
 						case 'update-dropin':
 							$result = $wp_filesystem->copy( plugin_dir_path( __FILE__ ) . '/includes/object-cache.php', WP_CONTENT_DIR . '/object-cache.php', true );
+							do_action( 'redis_object_cache_update_dropin', $result );
 							$message = $result ? 'dropin-updated' : 'update-dropin-failed';
 							break;
 

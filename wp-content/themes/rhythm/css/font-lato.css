@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+body {
+   font-family: "Lato", arial, sans-serif;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 1.77777778em;
+   color: #111;
+}
+p {
+   margin-bottom: 1.4em;
+}
+.section-text {
+   font-size: 18px;
+   left: 1.77777778em;
+   color: #555;
+}
+h1 {
+   font-size: 36px;
+   font-weight: 300;
+   color: #111;
+}
+h2 {
+   margin-bottom: 1.1em;
+   font-size: 25px;
+   line-height: 1.36;
+   font-weight: 300;
+   color: #111;
+}
+h3 {
+   font-size: 24px;
+   font-weight: 300;
+   color: #111;
+}
+h4 {
+   font-size: 22px;
+   font-weight: 300;
+   color: #111;
+}
+h5 {
+   font-size: 19px;
+   font-weight: 300;
+   color: #111;
+}
+h6 {
+   font-size: 17px;
+   font-weight: 300;
+   color: #777;
+}
+
+.font-alt,
+.testimonial-style2 {
+   font-family: "Lato", arial, sans-serif;
+}
+.blog-item-title.font-alt {
+   letter-spacing: 0.1em;
+}
+
+.post-prev-title {
+   letter-spacing: -0.01em;
+}
+
+.blog-item-foot .btn[class*="btn-"],
+.post-prev-more .btn[class*="btn-"] {
+   background-color: #17c2d6;
+   color: #fff;
+}
+.blog-item-foot .btn[class*="btn-"]:hover,
+.post-prev-more .btn[class*="btn-"]:hover {
+   background-color: #14a3b3;
+   color: #fff;
+}
+.section-title,
+.alt-features-title,
+.toggle > div.dt {
+   letter-spacing: 0.1em;
+}
+
+.bg-dark, .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark h5, .bg-dark h6,
+.bg-dark-lighter, .bg-dark-lighter h1, .bg-dark-lighter h2, .bg-dark-lighter h3, .bg-dark-lighter h4,.bg-dark-lighter h5, .bg-dark-lighter h6,
+.bg-dark-alfa-30, .bg-dark-alfa-30 h1, .bg-dark-alfa-30 h2, .bg-dark-alfa-30 h3, .bg-dark-alfa-30 h4,.bg-dark-alfa-30 h5, .bg-dark-alfa-30 h6,
+.bg-dark-alfa-50, .bg-dark-alfa-50 h1, .bg-dark-alfa-50 h2, .bg-dark-alfa-50 h3, .bg-dark-alfa-50 h4,.bg-dark-alfa-50 h5, .bg-dark-alfa-50 h6,
+.bg-dark-alfa-70, .bg-dark-alfa-70 h1, .bg-dark-alfa-70 h2, .bg-dark-alfa-70 h3, .bg-dark-alfa-70 h4,.bg-dark-alfa-70 h5, .bg-dark-alfa-70 h6,
+.bg-dark-alfa-90, .bg-dark-alfa-90 h1, .bg-dark-alfa-90 h2, .bg-dark-alfa-90 h3, .bg-dark-alfa-90 h4,.bg-dark-alfa-90 h5, .bg-dark-alfa-90 h6,
+.bg-dark-alfa, .bg-dark-alfa h1, .bg-dark-alfa h2, .bg-dark-alfa h3, .bg-dark-alfa h4,.bg-dark-alfa h5, .bg-dark-alfa h6,
+.bg-color, .bg-color h1, .bg-color h2, .bg-color h3, .bg-color h4,.bg-color h5, .bg-color h6,
+.bg-color-lighter, .bg-color-lighter h1, .bg-color-lighter h2, .bg-color-lighter h3, .bg-color-lighter h4,.bg-color-lighter h5, .bg-color-lighter h6,
+.bg-color-alfa-30, .bg-color-alfa-30 h1, .bg-color-alfa-30 h2, .bg-color-alfa-30 h3, .bg-color-alfa-30 h4,.bg-color-alfa-30 h5, .bg-color-alfa-30 h6,
+.bg-color-alfa-50, .bg-color-alfa-50 h1, .bg-color-alfa-50 h2, .bg-color-alfa-50 h3, .bg-color-alfa-50 h4,.bg-color-alfa-50 h5, .bg-color-alfa-50 h6,
+.bg-color-alfa-70, .bg-color-alfa-70 h1, .bg-color-alfa-70 h2, .bg-color-alfa-70 h3, .bg-color-alfa-70 h4,.bg-color-alfa-70 h5, .bg-color-alfa-70 h6,
+.bg-color-alfa-90, .bg-color-alfa-90 h1, .bg-color-alfa-90 h2, .bg-color-alfa-90 h3, .bg-color-alfa-90 h4,.bg-color-alfa-90 h5, .bg-color-alfa-90 h6,
+.bg-color-alfa , .bg-color-alfa h1, .bg-color-alfa h2, .bg-color-alfa h3, .bg-color-alfa h4,.bg-color-alfa h5, .bg-color-alfa h6{
+   color: #fff;
+}

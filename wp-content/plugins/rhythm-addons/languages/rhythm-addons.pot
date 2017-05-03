@@ -1,0 +1,629 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rhythm Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon May 02 2016 16:54:14 GMT+0300 (EEST)\n"
+"POT-Revision-Date: Mon May 02 2016 16:55:27 GMT+0300 (EEST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Rhythm Addons"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.medialayout.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A part of Rhythm theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Medialayout Team"
+msgstr ""
+
+#: ../theme-plugins.php:94
+msgid "Please activate the Rhythm theme to use Rhythem Addons plugin."
+msgstr ""
+
+#: ../theme-plugins.php:98
+msgid "Activate theme"
+msgstr ""
+
+#: ../composer/helpers.php:243
+msgid "Default"
+msgstr ""
+
+#: ../composer/map.php:1448 ../composer/map.php:1527 ../composer/map.php:1604 ..
+#: /composer/map.php:1670 ../composer/map.php:3004 ../composer/map.php:3130
+msgid "ID"
+msgstr ""
+
+#: ../composer/map.php:1449 ../composer/map.php:1528 ../composer/map.php:1605 ..
+#: /composer/map.php:1671 ../composer/map.php:3005 ../composer/map.php:3131
+msgid "Author"
+msgstr ""
+
+#: ../composer/map.php:1450 ../composer/map.php:1529 ../composer/map.php:1606 ..
+#: /composer/map.php:1672 ../composer/map.php:3006 ../composer/map.php:3132
+msgid "Post Title"
+msgstr ""
+
+#: ../composer/map.php:1451 ../composer/map.php:1530 ../composer/map.php:1607 ..
+#: /composer/map.php:1673 ../composer/map.php:3007 ../composer/map.php:3133 ..
+#: /composer/map.php:4669
+msgid "Date"
+msgstr ""
+
+#: ../composer/map.php:1452 ../composer/map.php:1531 ../composer/map.php:1608 ..
+#: /composer/map.php:1674 ../composer/map.php:3008 ../composer/map.php:3134
+msgid "Last Modified"
+msgstr ""
+
+#: ../composer/map.php:1453 ../composer/map.php:1532 ../composer/map.php:1609 ..
+#: /composer/map.php:1675 ../composer/map.php:3009 ../composer/map.php:3135
+msgid "Random Order"
+msgstr ""
+
+#: ../composer/map.php:1454 ../composer/map.php:1533 ../composer/map.php:1610 ..
+#: /composer/map.php:1676 ../composer/map.php:3010 ../composer/map.php:3136
+msgid "Comment Count"
+msgstr ""
+
+#: ../composer/map.php:1455 ../composer/map.php:1534 ../composer/map.php:1611 ..
+#: /composer/map.php:1677 ../composer/map.php:3011 ../composer/map.php:3137
+msgid "Menu Order"
+msgstr ""
+
+#: ../composer/map.php:2981
+msgid "No"
+msgstr ""
+
+#: ../composer/map.php:2982
+msgid "Yes"
+msgstr ""
+
+#: ../composer/map.php:4668
+msgid "Rand"
+msgstr ""
+
+#: ../composer/map.php:4670
+msgid "Price"
+msgstr ""
+
+#: ../composer/map.php:4671
+msgid "Popularity"
+msgstr ""
+
+#: ../composer/map.php:4672
+msgid "Rating"
+msgstr ""
+
+#: ../composer/map.php:4673
+msgid "Title"
+msgstr ""
+
+#: ../composer/map.php:4682
+msgid "Ascending"
+msgstr ""
+
+#: ../composer/map.php:4683
+msgid "Descending"
+msgstr ""
+
+#: ../composer/map.php:4693
+msgid "All Products"
+msgstr ""
+
+#: ../composer/map.php:4694
+msgid "Featured Products"
+msgstr ""
+
+#: ../composer/map.php:4695
+msgid "On-sale Products"
+msgstr ""
+
+#: ../custom-posts/faq.php:6
+msgctxt "Items"
+msgid "FAQ"
+msgstr ""
+
+#: ../custom-posts/faq.php:7
+msgctxt "Item"
+msgid "FAQ"
+msgstr ""
+
+#: ../custom-posts/faq.php:8 ../custom-posts/portfolio.php:8
+msgctxt "Item"
+msgid "Add New"
+msgstr ""
+
+#: ../custom-posts/faq.php:9 ../custom-posts/portfolio.php:9
+msgid "Add New Item"
+msgstr ""
+
+#: ../custom-posts/faq.php:10 ../custom-posts/portfolio.php:10
+msgid "Edit Item"
+msgstr ""
+
+#: ../custom-posts/faq.php:11 ../custom-posts/portfolio.php:11
+msgid "New Item"
+msgstr ""
+
+#: ../custom-posts/faq.php:12 ../custom-posts/portfolio.php:12
+msgid "All Items"
+msgstr ""
+
+#: ../custom-posts/faq.php:13 ../custom-posts/portfolio.php:13
+msgid "View Item"
+msgstr ""
+
+#: ../custom-posts/faq.php:14 ../custom-posts/portfolio.php:14
+msgid "Search Items"
+msgstr ""
+
+#: ../custom-posts/faq.php:15 ../custom-posts/portfolio.php:15
+msgid "No Items found"
+msgstr ""
+
+#: ../custom-posts/faq.php:16 ../custom-posts/portfolio.php:16
+msgid "No Items found in the Trash"
+msgstr ""
+
+#: ../custom-posts/faq.php:18
+msgid "FAQ"
+msgstr ""
+
+#: ../custom-posts/faq.php:38 ../custom-posts/portfolio.php:35 ../custom-
+#: posts/social-site.php:39 ../custom-posts/testimonial.php:41
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: ../custom-posts/faq.php:39 ../custom-posts/portfolio.php:36 ../custom-
+#: posts/social-site.php:40 ../custom-posts/testimonial.php:42
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: ../custom-posts/faq.php:40 ../custom-posts/portfolio.php:37 ../custom-
+#: posts/social-site.php:41 ../custom-posts/testimonial.php:43
+msgid "Search categories"
+msgstr ""
+
+#: ../custom-posts/faq.php:41 ../custom-posts/portfolio.php:38 ../custom-
+#: posts/social-site.php:42 ../custom-posts/testimonial.php:44
+msgid "All Categories"
+msgstr ""
+
+#: ../custom-posts/faq.php:42 ../custom-posts/portfolio.php:39 ../custom-
+#: posts/social-site.php:43 ../custom-posts/testimonial.php:45
+msgid "Parent Category"
+msgstr ""
+
+#: ../custom-posts/faq.php:43 ../custom-posts/portfolio.php:40 ../custom-
+#: posts/social-site.php:44 ../custom-posts/testimonial.php:46
+msgid "Parent Category:"
+msgstr ""
+
+#: ../custom-posts/faq.php:44 ../custom-posts/portfolio.php:41 ../custom-
+#: posts/social-site.php:45 ../custom-posts/testimonial.php:47
+msgid "Edit Category"
+msgstr ""
+
+#: ../custom-posts/faq.php:45 ../custom-posts/portfolio.php:42 ../custom-
+#: posts/social-site.php:46 ../custom-posts/testimonial.php:48
+msgid "Update Category"
+msgstr ""
+
+#: ../custom-posts/faq.php:46 ../custom-posts/portfolio.php:43 ../custom-
+#: posts/social-site.php:47 ../custom-posts/testimonial.php:49
+msgid "Add New Category"
+msgstr ""
+
+#: ../custom-posts/faq.php:47 ../custom-posts/portfolio.php:44 ../custom-
+#: posts/social-site.php:48 ../custom-posts/testimonial.php:50
+msgid "New Category Name"
+msgstr ""
+
+#: ../custom-posts/faq.php:48 ../custom-posts/portfolio.php:45 ../custom-
+#: posts/social-site.php:49 ../custom-posts/social-site.php:77 ../custom-
+#: posts/testimonial.php:51
+msgid "Categories"
+msgstr ""
+
+#: ../custom-posts/portfolio.php:6
+msgctxt "Items"
+msgid "Portfolio"
+msgstr ""
+
+#: ../custom-posts/portfolio.php:7
+msgctxt "Item"
+msgid "Portfolio"
+msgstr ""
+
+#: ../custom-posts/portfolio.php:18
+msgid "Portfolio"
+msgstr ""
+
+#: ../custom-posts/portfolio.php:22
+msgid "Holds our products and product specific data"
+msgstr ""
+
+#: ../custom-posts/social-site.php:6 ../custom-posts/social-site.php:18
+msgid "Social Sites"
+msgstr ""
+
+#: ../custom-posts/social-site.php:7 ../custom-posts/social-site.php:76
+msgid "Social Site"
+msgstr ""
+
+#: ../custom-posts/social-site.php:8 ../custom-posts/testimonial.php:9
+msgid "Add New"
+msgstr ""
+
+#: ../custom-posts/social-site.php:9
+msgid "Add New Social Site"
+msgstr ""
+
+#: ../custom-posts/social-site.php:10
+msgid "Edit Social Site"
+msgstr ""
+
+#: ../custom-posts/social-site.php:11
+msgid "New Social Site"
+msgstr ""
+
+#: ../custom-posts/social-site.php:12
+msgid "All Social Sites"
+msgstr ""
+
+#: ../custom-posts/social-site.php:13
+msgid "View Social Site"
+msgstr ""
+
+#: ../custom-posts/social-site.php:14
+msgid "Search Social Sites"
+msgstr ""
+
+#: ../custom-posts/social-site.php:15
+msgid "No Social Sites found"
+msgstr ""
+
+#: ../custom-posts/social-site.php:16
+msgid "No Social Sites found in the Trash"
+msgstr ""
+
+#: ../custom-posts/social-site.php:64
+msgid "http:// Enter URL here"
+msgstr ""
+
+#: ../custom-posts/social-site.php:78
+msgid "Order"
+msgstr ""
+
+#: ../custom-posts/team.php:6 ../custom-posts/team.php:7
+msgctxt "Team"
+msgid "Team"
+msgstr ""
+
+#: ../custom-posts/team.php:8
+msgctxt "Team"
+msgid "Add New"
+msgstr ""
+
+#: ../custom-posts/team.php:9
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../custom-posts/team.php:10
+msgid "Edit Team Memeber"
+msgstr ""
+
+#: ../custom-posts/team.php:11
+msgid "New Team Member"
+msgstr ""
+
+#: ../custom-posts/team.php:12
+msgid "All Team Memebers"
+msgstr ""
+
+#: ../custom-posts/team.php:13
+msgid "View Team"
+msgstr ""
+
+#: ../custom-posts/team.php:14
+msgid "Search Team Member"
+msgstr ""
+
+#: ../custom-posts/team.php:15
+msgid "No Member found"
+msgstr ""
+
+#: ../custom-posts/team.php:16
+msgid "No Team Member found in the Trash"
+msgstr ""
+
+#: ../custom-posts/team.php:18
+msgid "Team"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:7 ../custom-posts/testimonial.php:19
+msgid "Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:10
+msgid "Add New Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:11
+msgid "Edit Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:12
+msgid "New Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:13
+msgid "All Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:14
+msgid "View Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:15
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:16
+msgid "No Testimonials found"
+msgstr ""
+
+#: ../custom-posts/testimonial.php:17
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: ../shortcodes/rs_blog_magazine.php:112 ../shortcodes/rs_blog_magazine_alt.php:
+#: 163
+msgid "Read More"
+msgstr ""
+
+#: ../shortcodes/rs_blog_magazine.php:151 ../shortcodes/rs_blog_magazine_alt.php:
+#: 198
+msgid "Posted by"
+msgstr ""
+
+#: ../shortcodes/rs_blog_magazine_alt.php:153
+msgid "No Comments"
+msgstr ""
+
+#: ../shortcodes/rs_blog_magazine_alt.php:153
+msgid "1 Comment"
+msgstr ""
+
+#: ../shortcodes/rs_blog_magazine_alt.php:153
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: ../shortcodes/rs_blog_slider.php:83
+msgid "in"
+msgstr ""
+
+#: ../shortcodes/rs_latest_works.php:118
+msgid "All works"
+msgstr ""
+
+#: ../shortcodes/rs_portfolio_promo.php:126
+msgid "View online"
+msgstr ""
+
+#: ../shortcodes/rs_promo_slider.php:154
+msgid "You must have an HTML5 capable browser."
+msgstr ""
+
+#: ../widgets/WP_Feature_Box_Widget.class.php:12
+msgid "Displays feature box"
+msgstr ""
+
+#: ../widgets/WP_Feature_Box_Widget.class.php:13
+msgid "Rhythm: Feature Box"
+msgstr ""
+
+#: ../widgets/WP_Feature_Box_Widget.class.php:96 ../widgets/WP_Follow_Us_Widget.
+#: class.php:121 ../widgets/WP_Latest_Comments_Widget.class.php:125 ..
+#: /widgets/WP_Latest_Posts_Widget.class.php:103 ../widgets/WP_Multi_Tabs_Widget.
+#: class.php:156 ../widgets/WP_Newsletter_Widget.class.php:86 ..
+#: /widgets/WP_Rhythm_Categories_Widget.class.php:126 ..
+#: /widgets/WP_Text_Image_Widget.class.php:98
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/WP_Feature_Box_Widget.class.php:99
+msgid "Icon:"
+msgstr ""
+
+#: ../widgets/WP_Feature_Box_Widget.class.php:109
+msgid "Subtitle"
+msgstr ""
+
+#: ../widgets/WP_Feature_Box_Widget.class.php:112 ../widgets/WP_Text_Image_Widget.
+#: class.php:120
+msgid "Content:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:12
+msgid "Displays list of buttons"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:13
+msgid "Rhythm: Follow Us"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:55
+msgid "Facebook"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:56
+msgid "Twitter"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:57
+msgid "Google+"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:58
+msgid "Pinterest"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:59
+msgid "YouTube"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:60
+msgid "LinkedIn"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:61
+msgid "RSS"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:124
+msgid "Facebook URL:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:127
+msgid "Twitter URL:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:130
+msgid "Google Plus URL:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:133
+msgid "Pinterest URL:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:136
+msgid "Youtube URL:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:139
+msgid "LinkedIn URL:"
+msgstr ""
+
+#: ../widgets/WP_Follow_Us_Widget.class.php:142
+msgid "RSS URL:"
+msgstr ""
+
+#: ../widgets/WP_Latest_Comments_Widget.class.php:12 ..
+#: /widgets/WP_Latest_Posts_Widget.class.php:12
+msgid "Displays the most latest posts"
+msgstr ""
+
+#: ../widgets/WP_Latest_Comments_Widget.class.php:13
+msgid "Rhythm: Latest Comments"
+msgstr ""
+
+#: ../widgets/WP_Latest_Comments_Widget.class.php:44
+msgid "Latest Comments"
+msgstr ""
+
+#: ../widgets/WP_Latest_Comments_Widget.class.php:128 ..
+#: /widgets/WP_Latest_Posts_Widget.class.php:106 ../widgets/WP_Multi_Tabs_Widget.
+#: class.php:159
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../widgets/WP_Latest_Posts_Widget.class.php:13
+msgid "Rhythm: Latest Posts"
+msgstr ""
+
+#: ../widgets/WP_Latest_Posts_Widget.class.php:46
+msgid "Popular Posts"
+msgstr ""
+
+#: ../widgets/WP_Latest_Posts_Widget.class.php:62 ../widgets/WP_Multi_Tabs_Widget.
+#: class.php:81 ../widgets/WP_Multi_Tabs_Widget.class.php:111
+#, php-format
+msgid "Posted by %s"
+msgstr ""
+
+#: ../widgets/WP_Multi_Tabs_Widget.class.php:12
+msgid "Displays popular and latests posts on tabs"
+msgstr ""
+
+#: ../widgets/WP_Multi_Tabs_Widget.class.php:13
+msgid "Rhythm: Multi Tabs"
+msgstr ""
+
+#: ../widgets/WP_Multi_Tabs_Widget.class.php:58
+msgid "Popular"
+msgstr ""
+
+#: ../widgets/WP_Multi_Tabs_Widget.class.php:61
+msgid "Latest"
+msgstr ""
+
+#: ../widgets/WP_Newsletter_Widget.class.php:12
+msgid "Add newsletter"
+msgstr ""
+
+#: ../widgets/WP_Newsletter_Widget.class.php:13
+msgid "Rhythm: Newsletter"
+msgstr ""
+
+#: ../widgets/WP_Newsletter_Widget.class.php:89
+msgid "Form ID (Content):"
+msgstr ""
+
+#: ../widgets/WP_Rhythm_Categories_Widget.class.php:12
+msgid "Displays list of categories"
+msgstr ""
+
+#: ../widgets/WP_Rhythm_Categories_Widget.class.php:13
+msgid "Rhythm Categories"
+msgstr ""
+
+#: ../widgets/WP_Text_Image_Widget.class.php:12
+msgid "Displays text block with image"
+msgstr ""
+
+#: ../widgets/WP_Text_Image_Widget.class.php:13
+msgid "Rhythm: Text Block With Image"
+msgstr ""
+
+#: ../widgets/WP_Text_Image_Widget.class.php:102
+msgid "Rounded"
+msgstr ""
+
+#: ../widgets/WP_Text_Image_Widget.class.php:105
+msgid "Upload:"
+msgstr ""
+
+#: ../widgets/WP_Text_Image_Widget.class.php:113
+msgid "Align:"
+msgstr ""

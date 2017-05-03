@@ -1,0 +1,25 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">faq</custom-type>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">social-site</custom-type>
+		<custom-type translate="1">team</custom-type>
+		<custom-type translate="1">testimonial</custom-type>	
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">faq-category</taxonomy>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+		<taxonomy translate="1">testimonial-category</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="ts_theme_options">
+			<key name="footer-text-content" />
+			<key name="footer-small-text-content" />
+			<key name="under-construction-header1" />
+			<key name="under-construction-header2" />
+			<key name="under-construction-title" />
+			<key name="under-construction-subtitle" />
+			<key name="under-construction-text" />
+		</key>
+	</admin-texts>
+</wpml-config>

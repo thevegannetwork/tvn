@@ -3,8 +3,8 @@
 	Donate link: http://pickplugins.com
 	Tags: team, members profiles, our teams, team members, team plugin wordpress, meet the team, team showcase, my team, 
 	Requires at least: 3.8
-	Tested up to: 4.6.1
-	Stable tag: 1.19
+	Tested up to: 4.7
+	Stable tag: 1.21
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,9 +18,9 @@ Display team member profiles with descriptions and links to social media using o
 
 ### Team by http://pickplugins.com
 
-* [Live Demo!&raquo;](http://www.pickplugins.com/demo/team/)
-* [Upgrade to Premium!&raquo;](http://www.pickplugins.com/item/team-responsive-meet-the-team-grid-for-wordpress/)
-* [Watch Video Tutorial!&raquo;](https://www.youtube.com/watch?v=8OiNCDavSQg)
+* [Team Premium &raquo;](https://www.pickplugins.com/item/team-responsive-meet-the-team-grid-for-wordpress/?ref=wordpress.org)
+* [Documentation &raquo;](http://pickplugins.com/docs/documentation/team/?ref=wordpress.org)
+* [Watch Video Tutorial &raquo;](https://www.youtube.com/watch?v=LI9yZmOGXDM)
 
 
 <strong>Plugin Features</strong><br />
@@ -104,6 +104,13 @@ then paste this shortcode anywhere in your page to display Team gird.<br />
 5. screenshot-5
 
 == Changelog ==
+
+	= 1.21 =
+    * 09/03/2017 update - Update UI of layout builder.	
+    * 09/03/2017 add - help page.
+
+	= 1.20 =
+    * 31/12/2016 add - team memebr thumbnail image on single page.
 
 	= 1.19 =
     * 17/10/2016 fix - team memebr social icon issue fixed.

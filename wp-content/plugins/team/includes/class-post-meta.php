@@ -897,6 +897,8 @@ Team Post
 					foreach($team_grid_items as $item_key=>$item_name)
 						{
 							echo '<div title="Click to expand" class="item"><div class="header">';
+							echo '<span class="move"><i class="fa fa-bars"></i></span>';
+							echo '<span class="expand"><i class="fa fa-expand"></i><i class="fa fa-compress"></i></span>';
 							echo '<label title="Checked to Hide on frontend">';
 							
 							
@@ -1182,7 +1184,7 @@ Team Post
  jQuery(document).ready(function($)
 	{
 $(function() {
-$( ".team-grid-builder" ).sortable();
+$( ".team-grid-builder" ).sortable({ handle: '.move' });
 //$( ".items-container" ).disableSelection();
 });
 

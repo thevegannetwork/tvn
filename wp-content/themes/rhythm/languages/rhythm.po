@@ -1,0 +1,3005 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rhythm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-04 17:41+0200\n"
+"PO-Revision-Date: 2016-07-04 17:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Medialayout\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: rhythm\n"
+
+#: rhythm/404.php:28
+msgid "The page you were looking for could not be found."
+msgstr ""
+
+#: rhythm/404.php:32
+msgid "Back To Home Page"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:51 rhythm/admin/metaboxes-init.php:144
+msgid "Portfolio Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:73
+msgid "Team Member Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:95
+msgid "Testimonial Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:117
+msgid "Blog Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:169
+msgid "FAQ Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:194
+msgid "Shop Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:225 rhythm/admin/metaboxes-init.php:253
+#: rhythm/admin/metaboxes-init.php:392
+msgid "Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:275 rhythm/admin/metaboxes-init.php:366
+msgid "Post Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:297
+msgid "Video Post Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:320
+msgid "Gallery Post Options"
+msgstr ""
+
+#: rhythm/admin/metaboxes-init.php:343
+msgid "Audio Post Options"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/content-portfolio.php:7
+#: rhythm/admin/metaboxes/content.php:7
+#: rhythm/admin/options/customizer.php:121
+msgid "Content"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content-portfolio.php:8
+#: rhythm/admin/metaboxes/content.php:8
+msgid "Change the content section configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/content-portfolio.php:14
+#: rhythm/admin/metaboxes/content.php:14
+msgid "Content Margin"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content-portfolio.php:15
+#: rhythm/admin/metaboxes/content.php:15
+msgid "Select desired margin for the content"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/content-portfolio.php:17
+#: rhythm/admin/metaboxes/footer.php:18 rhythm/admin/metaboxes/footer.php:108
+#: rhythm/admin/metaboxes/header.php:31 rhythm/admin/metaboxes/header.php:70
+#: rhythm/admin/metaboxes/title-wrapper.php:93
+#: rhythm/admin/options/export.php:89 rhythm/admin/options/footer.php:18
+#: rhythm/admin/options/footer.php:104 rhythm/admin/options/header.php:26
+#: rhythm/admin/options/header.php:51
+#: rhythm/admin/options/title-wrapper.php:75 rhythm/extensions/admin.php:63
+msgid "Default"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content-portfolio.php:18
+#: rhythm/admin/metaboxes/content.php:17
+msgid "No margin"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content-portfolio.php:19
+#: rhythm/admin/metaboxes/content.php:18
+msgid "Only top margin"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content-portfolio.php:20
+#: rhythm/admin/metaboxes/content.php:19
+msgid "Only bottom margin"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content.php:27
+msgid "Enable Comments?"
+msgstr ""
+
+#: rhythm/admin/metaboxes/content.php:28
+msgid "If on, the comment form will be avaliable for this page."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:7 rhythm/admin/options/customizer.php:770
+#: rhythm/admin/options/footer.php:7
+msgid "Footer"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:8 rhythm/admin/options/footer.php:8
+msgid "Change the footer section configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:15 rhythm/admin/metaboxes/header.php:28
+#: rhythm/admin/metaboxes/title-wrapper.php:37
+#: rhythm/admin/options/export.php:86 rhythm/admin/options/footer.php:15
+#: rhythm/admin/options/header.php:23
+#: rhythm/admin/options/title-wrapper.php:23
+msgid "Template"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:16 rhythm/admin/metaboxes/header.php:29
+#: rhythm/admin/options/footer.php:16 rhythm/admin/options/header.php:24
+msgid "Choose template for header."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:19 rhythm/admin/metaboxes/header.php:32
+#: rhythm/admin/metaboxes/title-wrapper.php:41
+#: rhythm/admin/options/footer.php:19 rhythm/admin/options/header.php:27
+#: rhythm/admin/options/title-wrapper.php:27
+msgid "Alternative"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:27 rhythm/admin/options/footer.php:28
+msgid "Footer sidebar configuration"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:33 rhythm/admin/options/footer.php:34
+msgid "Enable footer sidebar?"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:34 rhythm/admin/metaboxes/footer.php:93
+#: rhythm/admin/metaboxes/footer.php:119 rhythm/admin/metaboxes/header.php:16
+#: rhythm/admin/metaboxes/portfolio-details.php:14
+#: rhythm/admin/metaboxes/portfolio-gallery.php:15
+#: rhythm/admin/metaboxes/portfolio-gallery.php:28
+#: rhythm/admin/metaboxes/portfolio-gallery.php:70
+#: rhythm/admin/metaboxes/portfolio-general.php:44
+#: rhythm/admin/metaboxes/portfolio-general.php:69
+#: rhythm/admin/metaboxes/preheader.php:16
+#: rhythm/admin/metaboxes/title-wrapper.php:16
+#: rhythm/admin/options/footer.php:35 rhythm/admin/options/footer.php:94
+#: rhythm/admin/options/footer.php:115 rhythm/admin/options/header.php:16
+#: rhythm/admin/options/pages.php:147 rhythm/admin/options/pages.php:155
+#: rhythm/admin/options/pages.php:163 rhythm/admin/options/pages.php:185
+#: rhythm/admin/options/pages.php:207 rhythm/admin/options/preheader.php:16
+#: rhythm/admin/options/title-wrapper.php:16
+msgid "If on, this layout part will be displayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:46 rhythm/admin/options/footer.php:42
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:47 rhythm/admin/metaboxes/footer.php:57
+#: rhythm/admin/metaboxes/footer.php:67 rhythm/admin/metaboxes/footer.php:77
+#: rhythm/admin/metaboxes/layout.php:29 rhythm/admin/options/footer.php:43
+#: rhythm/admin/options/footer.php:54 rhythm/admin/options/footer.php:65
+#: rhythm/admin/options/footer.php:76 rhythm/admin/options/layout.php:30
+#: rhythm/admin/options/layout.php:87 rhythm/admin/options/layout.php:149
+msgid "Select custom sidebar"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:56 rhythm/admin/options/footer.php:53
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:66 rhythm/admin/options/footer.php:64
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:76 rhythm/admin/options/footer.php:75
+msgid "Footer Sidebar 4"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:86 rhythm/admin/options/footer.php:87
+msgid "Footer bar configuration"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:92 rhythm/admin/options/footer.php:93
+msgid "Enable footer?"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:105 rhythm/admin/options/footer.php:101
+msgid "Paddings"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:106 rhythm/admin/options/footer.php:102
+msgid "Select footer paddings."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/footer.php:109
+#: rhythm/admin/metaboxes/title-wrapper.php:94
+#: rhythm/admin/options/footer.php:105
+#: rhythm/admin/options/title-wrapper.php:76
+msgid "Small"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:118 rhythm/admin/options/footer.php:114
+msgid "Enable logo?"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:132 rhythm/admin/options/footer.php:123
+msgid "Footer Logo"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:133 rhythm/admin/options/footer.php:124
+msgid "Upload the logo that will be displayed in the footer."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:139 rhythm/admin/options/footer.php:130
+msgid "Show social icons"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:140 rhythm/admin/options/footer.php:131
+msgid "If on, social icons will be displayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:152 rhythm/admin/metaboxes/header.php:276
+#: rhythm/admin/options/footer.php:137 rhythm/admin/options/header.php:230
+msgid "Social Icons Category"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:153 rhythm/admin/metaboxes/header.php:277
+#: rhythm/admin/options/footer.php:138 rhythm/admin/options/header.php:231
+msgid "Select desired category"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:161 rhythm/admin/options/footer.php:146
+msgid "Social Icons Margin Bottom"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:162 rhythm/admin/options/footer.php:147
+msgid "Select margin bottom."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:164 rhythm/admin/options/footer.php:149
+msgid "Default (110px)"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:165 rhythm/admin/options/footer.php:150
+msgid "Medium (60px)"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:166 rhythm/admin/options/footer.php:151
+msgid "Small (30px)"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:175 rhythm/admin/options/footer.php:160
+msgid "Copyright Content"
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:176 rhythm/admin/metaboxes/footer.php:183
+msgid ""
+"Place any text to be displayed. Leave empty to use default one from theme "
+"options."
+msgstr ""
+
+#: rhythm/admin/metaboxes/footer.php:182 rhythm/admin/options/footer.php:167
+msgid "Copyright Small Content"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:7 rhythm/admin/metaboxes/team.php:18
+#: rhythm/admin/options/customizer.php:18 rhythm/admin/options/header.php:7
+msgid "Header"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:8 rhythm/admin/options/header.php:8
+msgid "Change the header section configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:15
+#: rhythm/admin/metaboxes/preheader.php:15 rhythm/admin/options/header.php:15
+#: rhythm/admin/options/preheader.php:15
+msgid "Enable Header"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:33 rhythm/admin/options/header.php:28
+msgid "Alternative Centered"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:34
+#: rhythm/admin/metaboxes/title-wrapper.php:43
+#: rhythm/admin/options/header.php:29
+#: rhythm/admin/options/title-wrapper.php:29
+msgid "Modern"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:35 rhythm/admin/options/header.php:30
+msgid "Side"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:44 rhythm/admin/options/header.php:39
+msgid "Full Width Header"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:45
+#: rhythm/admin/metaboxes/preheader.php:29 rhythm/admin/options/header.php:40
+#: rhythm/admin/options/preheader.php:24
+msgid "If on, this layout part will be full width."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:58 rhythm/functions.php:105
+msgid "Primary Menu"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:59
+msgid "Select a menu to overwrite the header menu location."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:67 rhythm/admin/options/header.php:48
+msgid "Sticky or Dynamic Header"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:68 rhythm/admin/options/header.php:49
+msgid "Select if menu is sticky or dynamic."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:71 rhythm/admin/options/header.php:52
+msgid "Dynamic"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:72 rhythm/admin/options/header.php:53
+msgid "Sticky"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:81 rhythm/admin/options/header.php:63
+msgid "Header Style"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:82 rhythm/admin/options/header.php:64
+msgid "Select the header style."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:84 rhythm/admin/options/header.php:66
+msgid "Light background, dark text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:85 rhythm/admin/options/header.php:67
+msgid "Dark background, light text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:94 rhythm/admin/options/header.php:77
+msgid "Header Background Type"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:95 rhythm/admin/options/header.php:78
+msgid "Select the type of background to be applied in header."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:97 rhythm/admin/options/header.php:80
+msgid "Solid"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:98 rhythm/admin/options/header.php:81
+msgid "Transparent"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:107 rhythm/admin/options/header.php:91
+msgid "Logo Module Configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:114 rhythm/admin/options/header.php:98
+msgid "Logo"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:115 rhythm/admin/options/header.php:99
+msgid "Upload the logo that will be displayed in the header."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:122 rhythm/admin/options/header.php:106
+msgid "Logo Retina"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:123 rhythm/admin/metaboxes/header.php:140
+#: rhythm/admin/options/header.php:124
+msgid ""
+"The same logo image but with twice dimensions, e.g. your logo is 100x100, "
+"then your retina logo must be 200x200. Logo must include @2x in the file "
+"name, eg. if your logo file name is <strong>logo.png</strong>, retina "
+"version must be <strong>logo@2x.png</strong> and must be placed in the same "
+"directory! This featrues require the plugin <strong>WP Retina 2x</strong> to "
+"be activated."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:124 rhythm/admin/metaboxes/header.php:141
+#: rhythm/admin/options/header.php:108 rhythm/admin/options/header.php:125
+msgid ""
+"Optional retina version displayed in devices with retina display (high "
+"resolution display)."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:131 rhythm/admin/options/header.php:115
+msgid "Logo (light)"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:132 rhythm/admin/options/header.php:116
+msgid "Upload a light version of logo used in dark backgrounds"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:139 rhythm/admin/options/header.php:123
+msgid "Logo Retina (light)"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:147 rhythm/admin/options/header.php:131
+msgid "Modules Configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:163 rhythm/admin/options/header.php:147
+msgid "Modules Left Margin (px)"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:164 rhythm/admin/options/header.php:148
+msgid "Allow your users to choose the spacing between menu and modules."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/header.php:177 rhythm/admin/options/header.php:161
+#: rhythm/templates/header/alternative-centered.php:65
+#: rhythm/templates/header/alternative.php:64
+#: rhythm/templates/header/default.php:64
+#: rhythm/templates/header/modern.php:46 rhythm/templates/header/side.php:60
+msgid "Search"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:178 rhythm/admin/options/header.php:162
+msgid "If on, a search module will be displayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:190 rhythm/admin/options/header.php:169
+msgid "Phone"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:191 rhythm/admin/options/header.php:170
+msgid "If on, a phone module will be displayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:203 rhythm/admin/options/header.php:177
+msgid "Phone Number"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:204
+msgid "Phone number to be displayed."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/header.php:212
+#: rhythm/admin/metaboxes/page-template-faq.php:49
+#: rhythm/admin/options/header.php:186 rhythm/admin/options/pages.php:374
+msgid "Text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:213 rhythm/admin/options/header.php:187
+msgid "If on, a text module will be displayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:226 rhythm/admin/options/header.php:195
+msgid "Text Content"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:234 rhythm/admin/options/header.php:203
+msgid "Cart"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:235 rhythm/admin/options/header.php:204
+msgid ""
+"If on, a cart module will be displayed. Works only when Woocommerce plugin "
+"is installed"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:248 rhythm/admin/options/header.php:212
+msgid "Languages"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:249 rhythm/admin/options/header.php:213
+msgid ""
+"If on, a cart module will be displayed. Works only when WPML plugin is "
+"installed"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:262 rhythm/admin/options/header.php:221
+msgid "Social Icons"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:263 rhythm/admin/options/header.php:222
+msgid "If on, a social icons module will be displayed"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:286 rhythm/admin/options/header.php:240
+msgid "Button"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:287 rhythm/admin/options/header.php:241
+msgid "If on, a button module will be displayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:300 rhythm/admin/options/header.php:248
+msgid "Button Text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:301 rhythm/admin/options/header.php:249
+msgid "Button label to be disaplayed."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:309 rhythm/admin/options/header.php:256
+msgid "Button Link"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:317 rhythm/admin/options/header.php:264
+msgid "Button Icon"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:327 rhythm/admin/options/header.php:274
+msgid "Button Style"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:329 rhythm/admin/options/header.php:276
+msgid "Outline"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:330 rhythm/admin/options/header.php:277
+msgid "Filled"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:331 rhythm/admin/options/header.php:278
+msgid "Filled Alt."
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:332 rhythm/admin/options/header.php:279
+msgid "Filled Dark"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:341 rhythm/admin/options/header.php:288
+msgid "Button Target"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:343
+msgid "New window"
+msgstr ""
+
+#: rhythm/admin/metaboxes/header.php:344
+msgid "Same window"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:7 rhythm/admin/options/layout.php:7
+msgid "Layout Settings"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:8 rhythm/admin/options/layout.php:8
+msgid "Change the main theme's layout and configure it."
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:15 rhythm/admin/options/layout.php:15
+msgid "Main Layout"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:16 rhythm/admin/options/layout.php:16
+msgid ""
+"Select main content and sidebar alignment. Choose between 1 or 2 column "
+"layout."
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:18 rhythm/admin/options/layout.php:18
+#: rhythm/admin/options/layout.php:76 rhythm/admin/options/layout.php:138
+msgid "1 Column"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:19 rhythm/admin/options/layout.php:77
+#: rhythm/admin/options/layout.php:139
+msgid "2 - Column Left"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:20 rhythm/admin/options/layout.php:78
+#: rhythm/admin/options/layout.php:140
+msgid "2 - Column Right"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:28 rhythm/admin/options/layout.php:29
+#: rhythm/admin/options/layout.php:86 rhythm/admin/options/layout.php:148
+msgid "Sidebar"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:38 rhythm/admin/options/layout.php:39
+#: rhythm/admin/options/layout.php:96 rhythm/admin/options/layout.php:158
+msgid "Sidebar Size"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:39 rhythm/admin/options/layout.php:40
+#: rhythm/admin/options/layout.php:97 rhythm/admin/options/layout.php:159
+msgid "Choose size for the title wrapper"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:41
+#: rhythm/admin/metaboxes/title-wrapper.php:40
+#: rhythm/admin/options/layout.php:42 rhythm/admin/options/layout.php:99
+#: rhythm/admin/options/layout.php:161
+#: rhythm/admin/options/title-wrapper.php:26
+msgid "Normal"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:42 rhythm/admin/options/layout.php:43
+#: rhythm/admin/options/layout.php:100 rhythm/admin/options/layout.php:162
+msgid "Wide"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:51 rhythm/admin/options/layout.php:52
+#: rhythm/admin/options/layout.php:109 rhythm/admin/options/layout.php:171
+msgid "Fixed Sidebar"
+msgstr ""
+
+#: rhythm/admin/metaboxes/layout.php:52 rhythm/admin/options/layout.php:53
+#: rhythm/admin/options/layout.php:110 rhythm/admin/options/layout.php:172
+msgid "If on, siebar will be fixed when scrolling."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:13
+#: rhythm/admin/metaboxes/page-template-portfolio.php:44
+#: rhythm/admin/metaboxes/page-template-shop.php:13
+#: rhythm/admin/options/pages.php:48 rhythm/admin/options/pages.php:86
+#: rhythm/admin/options/pages.php:273 rhythm/admin/options/pages.php:306
+msgid "Columns"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:14
+msgid ""
+"Select desired number of columns. Works for blog columns and blog masonry "
+"template only."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:26
+#: rhythm/admin/metaboxes/page-template-faq.php:34
+#: rhythm/admin/metaboxes/page-template-portfolio.php:58
+#: rhythm/admin/metaboxes/page-template-shop.php:26
+msgid "Posts per page"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:27
+#: rhythm/admin/metaboxes/page-template-faq.php:35
+#: rhythm/admin/metaboxes/page-template-portfolio.php:59
+#: rhythm/admin/metaboxes/page-template-shop.php:27
+msgid "The number of items to show."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:33
+#: rhythm/admin/metaboxes/page-template-faq.php:41
+#: rhythm/admin/metaboxes/page-template-portfolio.php:65
+#: rhythm/admin/metaboxes/page-template-shop.php:33
+msgid "Enable pagination"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:34
+#: rhythm/admin/metaboxes/page-template-faq.php:42
+#: rhythm/admin/metaboxes/page-template-portfolio.php:66
+#: rhythm/admin/metaboxes/page-template-shop.php:34
+msgid "If on pagination will be enabled."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/page-template-blog.php:40
+#: rhythm/admin/metaboxes/page-template-portfolio.php:97
+#: rhythm/admin/options/pages.php:244
+msgid "Categories"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:41
+#: rhythm/admin/metaboxes/page-template-portfolio.php:98
+msgid "Select desired categories"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:49
+msgid "Excluded blog items"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-blog.php:50
+#: rhythm/admin/metaboxes/page-template-portfolio.php:108
+msgid "Post IDs you want to exclude, separated by commas eg. 120,123,1005"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/page-template-faq.php:13
+#: rhythm/admin/metaboxes/page-template-portfolio.php:13
+#: rhythm/admin/metaboxes/preheader.php:41
+#: rhythm/admin/options/preheader.php:31
+#: rhythm/admin/options/title-wrapper.php:49
+msgid "Style"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-faq.php:14
+msgid "Select desired style for faq template. "
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-faq.php:16
+msgid "List"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-faq.php:17
+msgid "Accordion"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-faq.php:26
+msgid "Enable search form"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-faq.php:27
+msgid "If on search form will be enabled."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-faq.php:50
+msgid "Text displayed below the form."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:14
+msgid "Select desired style for portfolio template. "
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:16
+msgid "Boxed black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:17
+msgid "Boxed white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:18
+msgid "Boxed gutter black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:19
+msgid "Boxed gutter white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:20
+msgid "Boxed titles black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:21
+msgid "Boxed titles white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:22
+msgid "Masonry black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:23
+msgid "Masonry white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:24
+msgid "Wide black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:25
+msgid "Wide white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:26
+msgid "Wide gutter black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:27
+msgid "Wide gutter white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:28
+msgid "Wide titles black"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:29
+msgid "Wide titles white"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:37
+msgid "Allow vertical images"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:45
+msgid "Select desired number of columns"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:73
+msgid "Enable filter"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:74
+msgid "If on filters will be enabled."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:81
+msgid "Use external URL if exists"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:82
+msgid "If on external URL is used instead of single post."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:89
+msgid "Allow lightbox"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:90
+msgid ""
+"Lightbox will be used if portfolio item lightbox effect is enabled. Lightbox "
+"effect must be enabled on portfolio item edit form."
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-portfolio.php:107
+msgid "Excluded portfolio items"
+msgstr ""
+
+#: rhythm/admin/metaboxes/page-template-shop.php:14
+#: rhythm/admin/options/pages.php:59 rhythm/admin/options/pages.php:97
+#: rhythm/admin/options/pages.php:284 rhythm/admin/options/pages.php:307
+msgid "Select desired number of columns."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/person.php:12
+#: rhythm/admin/metaboxes/testimonial.php:12
+#: rhythm/admin/options/pages.php:243
+msgid "Author"
+msgstr ""
+
+#: rhythm/admin/metaboxes/person.php:13
+#: rhythm/admin/metaboxes/testimonial.php:13
+msgid "Name of the testimonial author."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:8
+msgid "Project details"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:13
+#: rhythm/admin/options/pages.php:184
+msgid "Enable project details section"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/portfolio-details.php:26
+msgid "Client"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:27
+msgid "Your client name."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/portfolio-details.php:33
+#: rhythm/admin/metaboxes/portfolio-external-url.php:13
+#: rhythm/inc/custom-menus.php:217
+msgid "URL"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:34
+msgid "The URL to the project."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:41
+msgid "Content 1"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:42
+#: rhythm/admin/metaboxes/portfolio-details.php:49
+msgid "Short text displayed in the project details section."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-details.php:48
+msgid "Content 2"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-external-url.php:8
+msgid "External URL"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-external-url.php:14
+msgid "URL used to open external page instead of portfolio single."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:8
+#: rhythm/admin/metaboxes/portfolio-gallery.php:53
+msgid "Gallery"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:14
+#: rhythm/admin/options/pages.php:146
+msgid "Enable featured image section"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:27
+msgid "Enable project gallery section"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:40
+#: rhythm/admin/options/pages.php:170
+msgid "Gallery Type"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:41
+#: rhythm/admin/options/pages.php:171
+msgid "Select the gallery template."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:43
+#: rhythm/admin/options/pages.php:47 rhythm/admin/options/pages.php:85
+#: rhythm/admin/options/pages.php:173 rhythm/admin/options/pages.php:272
+msgid "Classic"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:44
+#: rhythm/admin/options/pages.php:174
+msgid "Slider"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:45
+#: rhythm/admin/options/pages.php:175
+msgid "Fullwidth Slider"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:54
+#: rhythm/admin/metaboxes/post-gallery.php:14
+msgid "Upload images or add from media library."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/portfolio-gallery.php:56
+#: rhythm/admin/metaboxes/post-gallery.php:16
+#: rhythm/admin/options/pages.php:358
+msgid "Title"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:69
+msgid "Enable project video section"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:82
+#: rhythm/admin/metaboxes/post-video.php:13
+msgid "Video URL"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:83
+#: rhythm/admin/metaboxes/post-video.php:14
+msgid "YouTube or Vimeo video URL"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:89
+#: rhythm/admin/metaboxes/post-video.php:20
+msgid "Embadded video"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-gallery.php:90
+#: rhythm/admin/metaboxes/post-video.php:21
+msgid "Use this option when the video does not come from YouTube or Vimeo"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:8
+msgid "General settings"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:14
+msgid "Vertical image on portfolio template page"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:15
+msgid "If on, the featured image will be vertical on portfolio template page."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:22
+msgid "Open lightbox on portfolio template page"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:23
+msgid "If on, image will be opened in lightbox on portfolio template page."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:30
+#: rhythm/admin/options/pages.php:138
+msgid "Content At The Bottom"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:31
+#: rhythm/admin/options/pages.php:139
+msgid "If on, shows content below all portfolio items."
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:43
+msgid "Related projects"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:56
+msgid "Show Related Or Latest Projects"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:58
+#: rhythm/admin/options/pages.php:195
+msgid "Don't show"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:59
+#: rhythm/admin/options/pages.php:196
+#: rhythm/templates/portfolio/parts/related.php:43
+msgid "Related Projects"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:60
+#: rhythm/admin/options/pages.php:197
+#: rhythm/templates/portfolio/parts/related.php:46
+msgid "Latest Projects"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:68
+#: rhythm/admin/options/pages.php:206
+msgid "Navigation"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:82
+#: rhythm/admin/options/pages.php:215
+msgid "Portfolio Page"
+msgstr ""
+
+#: rhythm/admin/metaboxes/portfolio-general.php:83
+#: rhythm/admin/options/pages.php:216
+msgid "Page to return from single items."
+msgstr ""
+
+#: rhythm/admin/metaboxes/post-audio.php:13
+msgid "Audio URL"
+msgstr ""
+
+#: rhythm/admin/metaboxes/post-audio.php:14
+msgid "Audio file URL in format: mp3, ogg, wav."
+msgstr ""
+
+#: rhythm/admin/metaboxes/post-gallery.php:13
+msgid "Gallery Slider"
+msgstr ""
+
+#: rhythm/admin/metaboxes/post.php:13 rhythm/admin/options/pages.php:231
+msgid "Enable media"
+msgstr ""
+
+#: rhythm/admin/metaboxes/post.php:14 rhythm/admin/options/pages.php:232
+msgid ""
+"If on, featured image, gallery, video or audio will be displayed "
+"automatically on a single post page."
+msgstr ""
+
+#: rhythm/admin/metaboxes/preheader.php:7 rhythm/admin/options/preheader.php:7
+msgid "Preheader"
+msgstr ""
+
+#: rhythm/admin/metaboxes/preheader.php:8 rhythm/admin/options/preheader.php:8
+msgid "Change the preheader section configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/preheader.php:28
+#: rhythm/admin/options/preheader.php:23
+msgid "Full Width"
+msgstr ""
+
+#: rhythm/admin/metaboxes/preheader.php:42
+#: rhythm/admin/options/preheader.php:32
+msgid "Select preheader style."
+msgstr ""
+
+#: rhythm/admin/metaboxes/preheader.php:44
+#: rhythm/admin/options/preheader.php:34
+msgid "Light"
+msgstr ""
+
+#: rhythm/admin/metaboxes/preheader.php:45
+#: rhythm/admin/options/preheader.php:35
+msgid "Dark"
+msgstr ""
+
+#: rhythm/admin/metaboxes/social_site.php:13
+msgid "Select Icon"
+msgstr ""
+
+#: rhythm/admin/metaboxes/social_site.php:14
+msgid "Select Desired Social Icon"
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:12
+msgid "Postion"
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:13
+msgid "Position of the team member."
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:19
+msgid "Header text of the team member."
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:24
+msgid "Facebook"
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:25 rhythm/admin/metaboxes/team.php:32
+#: rhythm/admin/metaboxes/team.php:39
+msgid "Social site URL."
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:31
+msgid "Twitter"
+msgstr ""
+
+#: rhythm/admin/metaboxes/team.php:38
+msgid "Pinterest"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:7
+#: rhythm/admin/options/customizer.php:57
+#: rhythm/admin/options/title-wrapper.php:7
+msgid "Title Wrapper"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:8
+#: rhythm/admin/options/title-wrapper.php:8
+msgid "Change the title wrapper section configuration."
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:15
+#: rhythm/admin/options/title-wrapper.php:15
+msgid "Enable Title Wrapper"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:28
+#: rhythm/admin/options/pages.php:366
+msgid "Subtitle"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:29
+msgid "This is a subtitle displayed below the title."
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:38
+#: rhythm/admin/options/title-wrapper.php:24
+msgid "Choose template for the title wrapper."
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:42
+#: rhythm/admin/options/title-wrapper.php:28
+msgid "Magazine"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:44
+#: rhythm/admin/options/title-wrapper.php:30
+msgid "Breadcrumbs"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:45
+#: rhythm/admin/options/title-wrapper.php:31
+msgid "Another One"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:54
+#: rhythm/admin/options/title-wrapper.php:40
+msgid "Enable Margin Top"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:55
+#: rhythm/admin/options/title-wrapper.php:41
+msgid "If on, margin top will be added."
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:68
+msgid "Title Wrapper Style"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:69
+#: rhythm/admin/options/title-wrapper.php:50
+msgid "Choose style for the title wrapper."
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:71
+#: rhythm/admin/options/title-wrapper.php:52
+msgid "Light gray background, dark text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:72
+#: rhythm/admin/options/title-wrapper.php:53
+msgid "Gray background, text dark"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:73
+#: rhythm/admin/options/title-wrapper.php:54
+msgid "Dark gray background,  light text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:74
+#: rhythm/admin/options/title-wrapper.php:55
+msgid "Black background, white text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:75
+#: rhythm/admin/options/title-wrapper.php:56
+msgid "White background, dark text"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:76
+#: rhythm/admin/options/title-wrapper.php:57
+msgid "Dark 30%"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:77
+#: rhythm/admin/options/title-wrapper.php:58
+msgid "Dark 50%"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:78
+#: rhythm/admin/options/title-wrapper.php:59
+msgid "Dark 70%"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:79
+#: rhythm/admin/options/title-wrapper.php:60
+msgid "Light 30%"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:80
+#: rhythm/admin/options/title-wrapper.php:61
+msgid "Light 50%"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:81
+#: rhythm/admin/options/title-wrapper.php:62
+msgid "Light 70%"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/title-wrapper.php:90
+#: rhythm/admin/options/title-wrapper.php:72
+msgid "Size"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:91
+#: rhythm/admin/options/title-wrapper.php:73
+msgid "Choose size for the title wrapper."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/metaboxes/title-wrapper.php:95
+#: rhythm/admin/options/title-wrapper.php:77
+msgid "Medium"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:96
+#: rhythm/admin/options/title-wrapper.php:78
+msgid "Big"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:106
+#: rhythm/admin/options/title-wrapper.php:89
+msgid "Title Image"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:108
+#: rhythm/admin/metaboxes/title-wrapper.php:118
+#: rhythm/admin/options/title-wrapper.php:91
+#: rhythm/admin/options/title-wrapper.php:101
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:116
+#: rhythm/admin/options/title-wrapper.php:99
+msgid "Title Background"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:127
+#: rhythm/admin/options/title-wrapper.php:110
+msgid "Title Background Settings"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:136
+#: rhythm/admin/options/title-wrapper.php:119
+msgid "Parallax effect"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:137
+#: rhythm/admin/options/title-wrapper.php:120
+msgid "Choose parallax effect for the background image."
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:139
+#: rhythm/admin/options/title-wrapper.php:122
+msgid "No effect"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:156
+#: rhythm/admin/options/title-wrapper.php:140
+msgid "Enable searchs section below title wrapper"
+msgstr ""
+
+#: rhythm/admin/metaboxes/title-wrapper.php:157
+#: rhythm/admin/options/title-wrapper.php:141
+msgid "If on, this full width search secion will be displayed"
+msgstr ""
+
+#: rhythm/admin/options-init.php:111
+msgid "Section via hook"
+msgstr ""
+
+#: rhythm/admin/options-init.php:112
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: rhythm/admin/options-init.php:190
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: rhythm/admin/options-init.php:197 rhythm/admin/options-init.php:200
+msgid "Current theme preview"
+msgstr ""
+
+#: rhythm/admin/options-init.php:207
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: rhythm/admin/options-init.php:208
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: rhythm/admin/options-init.php:209 rhythm/admin/options/pages.php:245
+msgid "Tags"
+msgstr ""
+
+#: rhythm/admin/options-init.php:214
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: rhythm/admin/options-init.php:214
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: rhythm/admin/options-init.php:255
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: rhythm/admin/options-init.php:256
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: rhythm/admin/options-init.php:257
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: rhythm/admin/options-init.php:261
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: rhythm/admin/options-init.php:268 rhythm/admin/options-init.php:300
+msgid "Documentation"
+msgstr ""
+
+#: rhythm/admin/options-init.php:286
+msgid "Theme Information"
+msgstr ""
+
+#: rhythm/admin/options-init.php:287
+msgid "<p class=\"description\">More about our theme.</p>"
+msgstr ""
+
+#: rhythm/admin/options-init.php:311
+msgid "Theme Information 1"
+msgstr ""
+
+#: rhythm/admin/options-init.php:312 rhythm/admin/options-init.php:318
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: rhythm/admin/options-init.php:317
+msgid "Theme Information 2"
+msgstr ""
+
+#: rhythm/admin/options-init.php:322
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/options/custom_code.php:7
+msgid "Custom CSS"
+msgstr ""
+
+#: rhythm/admin/options/custom_code.php:8
+msgid "Easily add custom CSS to your website."
+msgstr ""
+
+#: rhythm/admin/options/custom_code.php:15
+msgid "CSS Code"
+msgstr ""
+
+#: rhythm/admin/options/custom_code.php:16
+msgid ""
+"Insert your custom CSS code right here. It will be displayed globally in the "
+"website."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:7
+msgid "Customizer"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:8
+msgid "Check child sections to style properly the correct area of the theme."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:19
+msgid "Configure header styles."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:27
+#: rhythm/admin/options/customizer.php:67
+#: rhythm/admin/options/customizer.php:130
+#: rhythm/admin/options/customizer.php:785
+#: rhythm/admin/options/customizer.php:856 rhythm/admin/options/pages.php:26
+#: rhythm/admin/options/pages.php:335
+msgid "Background"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:28
+msgid "Header background with image, color and other options."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/options/customizer.php:34
+#: rhythm/admin/options/customizer.php:74
+#: rhythm/admin/options/customizer.php:137
+#: rhythm/admin/options/customizer.php:792
+#: rhythm/admin/options/customizer.php:863
+msgid "Typography"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:35
+msgid "Menu, modules and other header items font."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:46
+msgid "Submenu Background Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:58
+msgid "Configure title wrapper styles."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:68
+msgid ""
+"Title wrapper background, color and other options. Background image can be "
+"set in <em>Title Wrapper</em> section outside <em>Customizer</em>."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:75
+msgid "Title and other items font."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:86
+msgid "Title Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:94
+msgid "Subtitle Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:102
+msgid "Breadcrumbs Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:110
+msgid "Breadcrumbs Active Item Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:122
+msgid "Configure content styles."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:131
+msgid "Content background, color and other options."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:138
+msgid "Content font."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:149
+msgid "Alternative Typography"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:150
+msgid ""
+"Font used for content headers and other items where not main one is used."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:161
+msgid "Color (1)"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:162
+msgid "Default text color. Gray elements by default."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:280
+msgid "Color (2)"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:281
+msgid "Active elements, links, text. Dark elements by default."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:477
+msgid "Color (3)"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:478
+msgid "Light dark elements by default."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:516
+msgid "Color (4)"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:517
+msgid "Light elements, links, text."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:568
+msgid "Color (5)"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:569
+msgid "Light gray text, background, borders color."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:640
+msgid "Color (6)"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:641
+msgid "White elements by default."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:771
+msgid "Configure footer sidebar styles."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:778
+msgid "Footer Sidebar Configuration"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:786
+msgid "Footer sidebar background, color and other options."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:793
+msgid "Widgets font and color."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/options/customizer.php:804
+msgid "Text Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:825
+msgid "Text Hover Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:838
+msgid "Items Border Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:849
+msgid "Footer Bar Configuration"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:857
+msgid "Footer background, color and other options."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:864
+msgid "Footer font."
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:875
+msgid "Icons Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:887
+msgid "Icons Hover Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:898
+msgid "Back To Top Icon Color"
+msgstr ""
+
+#: rhythm/admin/options/customizer.php:908
+msgid "Back To Top Hover Icon Color"
+msgstr ""
+
+#: rhythm/admin/options/export.php:17
+#, php-format
+msgid ""
+"Your script maximum execution time is set to %d seconds. It may be not "
+"enough for import to succeed. Suggested value is 500 seconds."
+msgstr ""
+
+#: rhythm/admin/options/export.php:19
+msgid ""
+"Before running import check script maximum execution time. Suggested value "
+"is 500 seconds. Lower value may be not enough for import to succeed"
+msgstr ""
+
+#: rhythm/admin/options/export.php:24
+msgid ""
+"Import sample data including posts, pages, portfolio items, theme options, "
+"images, sliders etc. It may take severals minutes!"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/options/export.php:31
+msgid "Import"
+msgstr ""
+
+#: rhythm/admin/options/export.php:32
+msgid "Do you want to continue? Your data will be lost!"
+msgstr ""
+
+#: rhythm/admin/options/export.php:35
+msgid "Reset Status"
+msgstr ""
+
+#: rhythm/admin/options/export.php:36
+msgid ""
+"Do you want to continue? If you already imported sample data some theme "
+"features WILL NOT WORK CORRECTLY for imported post, pages, portfolio and "
+"other items!"
+msgstr ""
+
+#: rhythm/admin/options/export.php:37
+msgid "Done"
+msgstr ""
+
+#: rhythm/admin/options/export.php:51
+msgid "Activate importer"
+msgstr ""
+
+#: rhythm/admin/options/export.php:51
+msgid "Activate Wordpress Importer"
+msgstr ""
+
+#: rhythm/admin/options/export.php:58
+msgid "Install importer"
+msgstr ""
+
+#: rhythm/admin/options/export.php:58
+msgid "Install Wordpress Importer"
+msgstr ""
+
+#: rhythm/admin/options/export.php:63
+msgid ""
+"Wordpress Importer plugin must be installed and activated to import sample "
+"data."
+msgstr ""
+
+#: rhythm/admin/options/export.php:71
+msgid "Import Sample Data"
+msgstr ""
+
+#: rhythm/admin/options/export.php:87
+msgid "Choose template to import."
+msgstr ""
+
+#: rhythm/admin/options/export.php:90
+msgid "Restaurant"
+msgstr ""
+
+#: rhythm/admin/options/export.php:91
+msgid "Restaurant Multi"
+msgstr ""
+
+#: rhythm/admin/options/export.php:92
+msgid "Finance"
+msgstr ""
+
+#: rhythm/admin/options/export.php:93
+msgid "Finance Multi"
+msgstr ""
+
+#: rhythm/admin/options/export.php:115
+msgid "Import Export"
+msgstr ""
+
+#: rhythm/admin/options/export.php:116
+msgid "Save and restore your Redux options"
+msgstr ""
+
+#: rhythm/admin/options/export.php:121
+msgid "Import/Export"
+msgstr ""
+
+#: rhythm/admin/options/export.php:122
+msgid "Import/Export Options"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:7
+msgid "Favicon Settings"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:8
+msgid ""
+"Configure the favicon in a lot of plataforms. Generate and download your "
+"package at http://realfavicongenerator.net/"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:15
+msgid ""
+"Generate and download your image package at http://realfavicongenerator.net/"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:21
+msgid "Default Favicons"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:25
+msgid "Favicon 16x16"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:26
+msgid "Upload favicon image in the following dimensions (16x16)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:34
+msgid "Favicon 32x32"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:35
+msgid "Upload favicon image in the following dimensions (32x32)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:43
+msgid "Favicon 96x96"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:44
+msgid "Upload favicon image in the following dimensions (96x96)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:52
+msgid "Favicon 160x160"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:53
+msgid "Upload favicon image in the following dimensions (160x160)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:61
+msgid "Favicon 192x192"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:62
+msgid "Upload favicon image in the following dimensions (192x192)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:72
+msgid "Apple Favicons"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:76
+msgid "Favicon 57x57"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:77
+msgid "Upload favicon image in the following dimensions (57x57)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:85
+msgid "Favicon 114x114"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:86
+msgid "Upload favicon image in the following dimensions (114x114)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:94
+msgid "Favicon 72x72"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:95
+msgid "Upload favicon image in the following dimensions (72x72)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:103
+msgid "Favicon 144x144"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:104
+msgid "Upload favicon image in the following dimensions (144x144)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:112
+msgid "Favicon 60x60"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:113
+msgid "Upload favicon image in the following dimensions (60x60)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:121
+msgid "Favicon 120x120"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:122
+msgid "Upload favicon image in the following dimensions (120x120)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:130
+msgid "Favicon 76x76"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:131
+msgid "Upload favicon image in the following dimensions (76x76)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:139
+msgid "Favicon 152x152"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:140
+msgid "Upload favicon image in the following dimensions (152x152)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:148
+msgid "Favicon 180x180"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:149
+msgid "Upload favicon image in the following dimensions (180x180)"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:159
+msgid "Windows Metro"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:165
+msgid "Custom Tile Background Color"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:166
+msgid "Pick a background color for the tile."
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:173
+msgid "Tile Image 70x70"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:174
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: 70x70. "
+"Recommended: 128x128."
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:182
+msgid "Tile Image 150x150"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:183
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: "
+"150x150. Recommended: 270x270."
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:191
+msgid "Tile Image 310x150"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:192
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: "
+"310x150. Recommended: 558x270."
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:200
+msgid "Tile Image 310x310"
+msgstr ""
+
+#: rhythm/admin/options/favicon.php:201
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: "
+"310x310. Recommended: 558x558."
+msgstr ""
+
+#: rhythm/admin/options/footer.php:161 rhythm/admin/options/footer.php:168
+msgid "Place any text to be displayed."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/options/general.php:7
+msgid "General Settings"
+msgstr ""
+
+#: rhythm/admin/options/general.php:8
+msgid "Configure easily the basic theme's settings."
+msgstr ""
+
+#: rhythm/admin/options/general.php:15
+msgid "Enable Under Construction"
+msgstr ""
+
+#: rhythm/admin/options/general.php:16
+msgid "If on, the frontend shows under construction page only."
+msgstr ""
+
+#: rhythm/admin/options/general.php:17
+msgid ""
+"Only administrator will be able to visit site. If you want to check under "
+"construction mode is enabled you have to logout."
+msgstr ""
+
+#: rhythm/admin/options/general.php:24
+msgid "Enable Loader Effect?"
+msgstr ""
+
+#: rhythm/admin/options/general.php:25
+msgid "If on, a loader will appear before loading the page."
+msgstr ""
+
+#: rhythm/admin/options/general.php:33
+msgid "Preloader custom image"
+msgstr ""
+
+#: rhythm/admin/options/general.php:34
+msgid "Upload the image that will be used for preloader."
+msgstr ""
+
+#: rhythm/admin/options/general.php:40
+msgid "Custom Sidebars"
+msgstr ""
+
+#: rhythm/admin/options/general.php:41
+msgid "Custom sidebars can be assigned to any page or post."
+msgstr ""
+
+#: rhythm/admin/options/general.php:42
+msgid "You can add as many custom sidebars as you need."
+msgstr ""
+
+#: rhythm/admin/options/general.php:48
+msgid "Publisher"
+msgstr ""
+
+#: rhythm/admin/options/general.php:49
+msgid ""
+"Purpose of the publisher is to link your website on google search to its "
+"social media brand page."
+msgstr ""
+
+#: rhythm/admin/options/general.php:50
+msgid "Add our Google+ account URL here."
+msgstr ""
+
+#: rhythm/admin/options/general.php:55
+msgid "Clear Static Files Query String"
+msgstr ""
+
+#: rhythm/admin/options/general.php:56
+msgid ""
+"If enabled qeury string variable \"ver\" will be removed from query string "
+"for JS and CSS files."
+msgstr ""
+
+#: rhythm/admin/options/header.php:107
+msgid ""
+"The same logo image but with twice dimensions, e.g. your logo is 100x100, "
+"then your retina logo must be 200x200. Logo must include @2x in the file "
+"name, eg. if your logo file name is <strong>logo.png</strong>, retina "
+"version must be <strong>logo@2x.png</strong> and must be placed in the same "
+"directory! This featrue requires the plugin <strong>WP Retina 2x</strong> to "
+"be activated."
+msgstr ""
+
+#: rhythm/admin/options/header.php:178
+msgid "Phone number to be disaplayed."
+msgstr ""
+
+#: rhythm/admin/options/header.php:290
+msgid "Blank"
+msgstr ""
+
+#: rhythm/admin/options/header.php:291
+msgid "Self"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:19
+msgid "2 Column Left"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:20
+msgid "2 Column Right"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:65
+msgid "Single post default layout settings"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:66 rhythm/admin/options/layout.php:128
+msgid "Overrides Main Layout settings"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:73
+msgid "Single Post Layout"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:74
+msgid ""
+"Select sidebar alignment for single post. Choose between 1 or 2 column "
+"layout."
+msgstr ""
+
+#: rhythm/admin/options/layout.php:127
+msgid "Builtin pages layout settings"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:135
+msgid "Builtin Pages Layout"
+msgstr ""
+
+#: rhythm/admin/options/layout.php:136
+msgid ""
+"Select sidebar alignment for pages like archive, search etc. Choose between "
+"1 or 2 column layout."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:7
+msgid "Pages/Templates"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:8
+msgid "Change templates and pages templates."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:19
+msgid "404 page"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:27
+msgid "Upload the background that will be displayed in the 404 page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:38
+msgid "Archive"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:44
+msgid "Archive Template"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:45
+msgid "Select the archive default template."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:49 rhythm/admin/options/pages.php:87
+#: rhythm/admin/options/pages.php:274
+msgid "Masonry"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:58
+msgid "Archive Columns"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:76 rhythm/inc/template-tags.php:205
+msgid "Blog"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:82
+msgid "Blog Template"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:83
+msgid "Select the blog default template."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:96
+msgid "Blog Columns"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:114
+msgid "Pages"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:120
+msgid "Enable Comments in Pages?"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:121
+msgid "If on, the comment form will be avaliable in all pages."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:132
+msgid "Portfolio Single"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:154
+msgid "Enable gallery section"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:162
+msgid "Enable video section"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:192
+msgid "Related/Latest Projects"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:193
+msgid "If activated related or latest projects will be displayed."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:225
+msgid "Post"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:239
+msgid "Meta"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:240
+msgid "Disable or enable meta options."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:242
+msgid "Date"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/admin/options/pages.php:246 rhythm/comments.php:25
+msgid "Comments"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:263 rhythm/inc/template-tags.php:592
+msgid "Search Results"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:269
+msgid "Search Results Template"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:270
+msgid "Select the search results default template."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:283
+msgid "Search Results Columns"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:300
+msgid "Shop"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:320
+msgid "Disable single product sidebar"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:321
+msgid "If on, sidebar will not be displayed on a single product page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:328
+msgid "Under Construction"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:336
+msgid ""
+"Upload the background that will be displayed in the under construction page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:342
+msgid "Header area 1"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:343
+msgid ""
+"The header area 1 displayed in the header of the under construciton page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:350
+msgid "Header area 2"
+msgstr ""
+
+#: rhythm/admin/options/pages.php:351
+msgid ""
+"The header area 2 displayed in the header of the under construciton page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:359
+msgid "Title of the under construciton page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:367
+msgid "Subtitle of the under construciton page."
+msgstr ""
+
+#: rhythm/admin/options/pages.php:375
+msgid "Text displayed on the under construction page."
+msgstr ""
+
+#: rhythm/comments.php:29
+msgid "Comment navigation"
+msgstr ""
+
+#: rhythm/comments.php:32
+msgid "Older Comments"
+msgstr ""
+
+#: rhythm/comments.php:33
+msgid "Newer Comments"
+msgstr ""
+
+#: rhythm/comments.php:63
+msgid "Leave a Comment"
+msgstr ""
+
+#: rhythm/comments.php:64
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: rhythm/comments.php:65
+msgid "Cancel Comment"
+msgstr ""
+
+#: rhythm/comments.php:66
+msgid "Submit Comment"
+msgstr ""
+
+#: rhythm/comments.php:70 rhythm/woocommerce/single-product-reviews.php:83
+msgid "Comment"
+msgstr ""
+
+#: rhythm/comments.php:72
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: rhythm/comments.php:73
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/comments.php:83 rhythm/woocommerce/single-product-reviews.php:51
+msgid "Name"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/comments.php:89 rhythm/woocommerce/single-product-reviews.php:55
+msgid "Email"
+msgstr ""
+
+#: rhythm/comments.php:96
+msgid "Website"
+msgstr ""
+
+#: rhythm/extensions/importer/importer.php:237
+#, php-format
+msgid "File %s not found."
+msgstr ""
+
+#: rhythm/extensions/importer/importer.php:237
+msgid "Import stopped!"
+msgstr ""
+
+#: rhythm/extensions/insert-icon.php:20
+msgid "Insert Icon"
+msgstr ""
+
+#: rhythm/extensions/insert-icon.php:73
+msgid "Insert"
+msgstr ""
+
+#: rhythm/functions.php:106
+msgid "Preheader left"
+msgstr ""
+
+#: rhythm/functions.php:107
+msgid "Preheader right"
+msgstr ""
+
+#: rhythm/functions.php:167
+msgid "Main Sidebar"
+msgstr ""
+
+#: rhythm/functions.php:178
+msgid "Footer Sidebar"
+msgstr ""
+
+#: rhythm/functions.php:210
+msgid "Shop Single Post Sidebar"
+msgstr ""
+
+#: rhythm/functions.php:231 rhythm/functions.php:237
+msgid "on"
+msgstr ""
+
+#: rhythm/header.php:28 rhythm/header.php:30
+msgid "Loading..."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:163
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:167
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:176
+msgid "sub item"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:191
+msgid "Move up"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:204
+msgid "Move down"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:206 rhythm/inc/custom-menus.php:208
+msgid "Edit Menu Item"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:224
+msgid "Navigation Label"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:230
+msgid "Title Attribute"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:237
+msgid "Open link in a new window/tab"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:242
+msgid "CSS Classes (optional)"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:248
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:254
+msgid "Description"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:256
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:262
+msgid "Move"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:263
+msgid "Up one"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:264
+msgid "Down one"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:267
+msgid "To the top"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:284
+msgid "Choose Icon"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:285 rhythm/inc/custom-menus.php:358
+#: rhythm/woocommerce/cart/mini-cart.php:57
+msgid "Remove"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:303
+msgid "Create Mega Menu for this item"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:318
+msgid ""
+"Active link for this item if has sub items (works with mobile menu, side and "
+"modern header)"
+msgstr ""
+
+#: rhythm/inc/custom-menus.php:336
+msgid "Hide Navigation Label"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/custom-menus.php:345
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/inc/custom-menus.php:359
+msgid "Cancel"
+msgstr ""
+
+#: rhythm/inc/extras.php:69
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:54
+msgid "Posts navigation"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:58
+msgid "Older posts"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:62
+msgid "Newer posts"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:88
+msgid "Prev post"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:89
+msgid "Next post"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:140 rhythm/inc/template-tags.php:170
+msgid ", "
+msgstr ""
+
+#: rhythm/inc/template-tags.php:170
+msgid "Posted in:"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:177
+msgid "Tagged:"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/inc/template-tags.php:182 rhythm/inc/template-tags.php:436
+#: rhythm/inc/template-tags.php:464
+msgid "Edit"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:218
+msgid "1 search result for"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:221
+msgid "search results for"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:224
+msgid "Search results for"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:237
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:240
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:243
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:243
+msgid "F Y"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:246
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:246
+msgid "Y"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:253
+msgid "Asides"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:256
+msgid "Galleries"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:259
+msgid "Images"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:262
+msgid "Videos"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:265
+msgid "Quotes"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:268
+msgid "Links"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:271
+msgid "Statuses"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:274
+msgid "Audios"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:277
+msgid "Chats"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/template-tags.php:280
+msgid "404"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/template-tags.php:283
+msgid "Archives"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:436
+msgid "Pingback:"
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/template-tags.php:468
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/inc/template-tags.php:517 rhythm/inc/template-tags.php:527
+#: rhythm/inc/template-tags.php:597
+msgid "Home"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:570 rhythm/inc/template-tags.php:575
+#: rhythm/inc/template-tags.php:580
+msgid "Archive for"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:585
+msgid "Author Archive"
+msgstr ""
+
+#: rhythm/inc/template-tags.php:589
+msgid "Blog Archives"
+msgstr ""
+
+#: rhythm/inc/woocommerce.php:20
+#: rhythm/templates/header/alternative-centered.php:87
+#: rhythm/templates/header/alternative.php:98
+#: rhythm/templates/header/default.php:86
+#, php-format
+msgid "Cart(%d)"
+msgstr ""
+
+#: rhythm/page-templates/faq.php:93
+#: rhythm/templates/header/alternative-centered.php:71
+#: rhythm/templates/header/alternative.php:70
+#: rhythm/templates/header/default.php:70
+#: rhythm/templates/header/modern.php:52 rhythm/templates/header/side.php:67
+#: rhythm/templates/title/parts/search.php:12
+msgid "Start Search"
+msgstr ""
+
+#: rhythm/page-templates/faq.php:96
+#: rhythm/templates/header/alternative-centered.php:74
+#: rhythm/templates/header/alternative.php:73
+#: rhythm/templates/header/default.php:73
+#: rhythm/templates/header/modern.php:55 rhythm/templates/header/side.php:70
+#: rhythm/templates/title/parts/search.php:15
+msgid "Search..."
+msgstr ""
+
+#: rhythm/page-templates/portfolio.php:217
+#: rhythm/templates/portfolio/parts/navigation.php:31
+msgid "All works"
+msgstr ""
+
+#: rhythm/templates/blog-classic/parts/part-footer.php:10
+#: rhythm/templates/blog-columns/parts/part-footer.php:10
+#: rhythm/templates/blog-masonry/parts/part-footer.php:10
+msgid "Read More"
+msgstr ""
+
+#: rhythm/templates/blog-classic/parts/part-meta.php:42
+msgid "No comments"
+msgstr ""
+
+#: rhythm/templates/blog-classic/parts/part-meta.php:42
+msgid "1 Comment"
+msgstr ""
+
+#: rhythm/templates/blog-classic/parts/part-meta.php:42
+msgid "% Comments"
+msgstr ""
+
+#: rhythm/templates/content/content-none.php:12
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: rhythm/templates/content/content-none.php:15
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: rhythm/templates/content/content-none.php:18
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+# @ mk_framework
+#: rhythm/templates/content/content-page.php:14
+#: rhythm/templates/content/content-single.php:18
+#: rhythm/templates/portfolio/parts/editor-content.php:11
+msgid "Pages:"
+msgstr ""
+
+#: rhythm/templates/header/modern.php:15 rhythm/templates/header/side.php:18
+msgid "Menu"
+msgstr ""
+
+#: rhythm/templates/portfolio/parts/navigation.php:17
+#: rhythm/templates/portfolio/parts/navigation.php:19
+msgid "Previous"
+msgstr ""
+
+#: rhythm/templates/portfolio/parts/navigation.php:38
+#: rhythm/templates/portfolio/parts/navigation.php:40
+msgid "Next"
+msgstr ""
+
+#: rhythm/templates/portfolio/parts/project-details.php:14
+msgid "Project Details"
+msgstr ""
+
+#: rhythm/templates/portfolio/parts/project-details.php:18
+msgid "Client:"
+msgstr ""
+
+#: rhythm/templates/portfolio/parts/project-details.php:23
+msgid "Date:"
+msgstr ""
+
+#: rhythm/templates/portfolio/parts/project-details.php:28
+msgid "Online:"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:30
+msgid "Total"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:47
+#: rhythm/woocommerce/cart/mini-cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:119
+msgid "Coupon code"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/cart.php:119
+msgid "Apply Coupon"
+msgstr ""
+
+#: rhythm/woocommerce/cart/cart.php:126
+msgid "Update Cart"
+msgstr ""
+
+#: rhythm/woocommerce/cart/cross-sells.php:47
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: rhythm/woocommerce/cart/mini-cart.php:72
+msgid "No products in the cart."
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/cart/mini-cart.php:80
+msgid "Subtotal"
+msgstr ""
+
+#: rhythm/woocommerce/cart/mini-cart.php:85
+msgid "View Cart"
+msgstr ""
+
+#: rhythm/woocommerce/cart/mini-cart.php:86
+msgid "Checkout"
+msgstr ""
+
+#: rhythm/woocommerce/global/quantity-input.php:24
+msgid "Qty"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: rhythm/woocommerce/loop/result-count.php:34
+#, php-format
+msgid "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/loop/sale-flash.php:19
+#: rhythm/woocommerce/single-product/sale-flash.php:19
+msgid "Sale!"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/woocommerce/myaccount/form-login.php:25
+#: rhythm/woocommerce/myaccount/form-login.php:83
+msgid "Login"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:29
+msgid "Registration"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:54
+msgid "Username or email address"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/woocommerce/myaccount/form-login.php:59
+#: rhythm/woocommerce/myaccount/form-login.php:133
+msgid "Password"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:72
+msgid "Lost your password?"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:87
+msgid "Remember me"
+msgstr ""
+
+# @ mk_framework
+# @ woocommerce
+#: rhythm/woocommerce/myaccount/form-login.php:119
+msgid "Username"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:126
+msgid "Email address"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:139
+msgid "Anti-spam"
+msgstr ""
+
+#: rhythm/woocommerce/myaccount/form-login.php:149
+msgid "Register"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product-reviews.php:40
+msgid "Add a review"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product-reviews.php:40
+msgid "Be the first to review"
+msgstr ""
+
+#: rhythm/woocommerce/single-product-reviews.php:41
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: rhythm/woocommerce/single-product-reviews.php:51
+msgid "This Field is required"
+msgstr ""
+
+#: rhythm/woocommerce/single-product-reviews.php:59
+msgid "Send Review"
+msgstr ""
+
+#: rhythm/woocommerce/single-product-reviews.php:70
+msgid "Your Rating"
+msgstr ""
+
+#: rhythm/woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: rhythm/woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: rhythm/woocommerce/single-product/add-to-cart/variable.php:42
+msgid "Clear"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/meta.php:26
+msgid "SKU:"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/meta.php:30
+msgid "Category:"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/meta.php:32
+msgid "Tag:"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/product-attributes.php:27
+msgid "Parameter"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/product-attributes.php:30
+msgid "Value"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/product-attributes.php:38
+msgid "Weight"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/product-attributes.php:45
+msgid "Dimensions"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/product-image.php:43
+msgid "Placeholder"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/rating.php:30
+#, php-format
+msgid "based on %s customer rating"
+msgstr ""
+
+#: rhythm/woocommerce/single-product/rating.php:33
+#, php-format
+msgid "%s review"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/related.php:49
+msgid "Related Products"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/review.php:40
+msgid "verified owner"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/review.php:47
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/review.php:65
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+# @ woocommerce
+#: rhythm/woocommerce/single-product/up-sells.php:50
+msgid "You may also like&hellip;"
+msgstr ""

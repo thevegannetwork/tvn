@@ -101,12 +101,38 @@
 
 #team_metabox .team-grid-builder .header {
   border-bottom: 1px solid rgb(153, 153, 153);
-  padding: 7px 13px 7px 25px;
+  padding: 10px;
 }
 
 #team_metabox .team-grid-builder .item .header:hover {
-  background: url("move.png") no-repeat scroll 6px 4px #a7e1ff;
 
+
+}
+
+#team_metabox .team-grid-builder .item .move {
+	display: inline-block;
+	padding: 5px;
+	cursor: move;
+}
+
+#team_metabox .team-grid-builder .item .expand {
+	display: inline-block;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#team_metabox .team-grid-builder .item .expand .fa-expand {
+	display: inline-block;
+}
+
+#team_metabox .team-grid-builder .item .expand .fa-compress {
+	display: none;
+}
+#team_metabox .team-grid-builder .item.active .expand .fa-compress {
+	display: inline-block;
+}
+#team_metabox .team-grid-builder .item.active .expand .fa-expand {
+	display: none;
 }
 
 #team_metabox .team-grid-builder .header > label {
