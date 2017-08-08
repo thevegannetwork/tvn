@@ -19,6 +19,11 @@ $section_class = ''; //whole section class
 $grid_gut = ts_get_post_opt( 'large-gutter' ) == 1 ? 'work-grid-gut-30' : 'work-grid-gut';
 $titlepos = ts_get_post_opt( 'title-middle-position' ) == 1 ? 'titles-middle' : '';
 
+$filter_all_label = ts_get_post_opt( 'filter-all-label' );
+if( empty( $filter_all_label ) ) {
+	$filter_all_label = esc_html__( 'All works', 'rhythm' );
+}
+
 $filter_classes = 'font-alt';
 if ( ts_get_post_opt( 'filter-style' ) == 'bordered' ) {
 	$filter_classes = 'style-with-border';	
@@ -222,7 +227,7 @@ $max_num_pages = $the_query -> max_num_pages;
 			<?php if (count($terms) > 0): ?>
 				<!-- Works Filter -->
 				<div class="works-filter align-center <?php echo sanitize_html_classes( $filter_classes ); ?>">
-					<a href="#" class="filter active" data-filter="*"><?php _e('All works', 'rhythm'); ?></a>
+					<a href="#" class="filter active" data-filter="*"><?php echo esc_html( $filter_all_label ); ?></a>
 					<?php foreach ($terms as $term): ?>
 						<a href="#" class="filter" data-filter=".portfolio_cat-<?php echo esc_attr($term->term_id); ?>"><?php echo esc_html($term->name); ?></a>
 					<?php endforeach; ?>

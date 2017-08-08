@@ -1,0 +1,42 @@
+--- Handle the [SubscriptionConfirmation] notification
+Type: SubscriptionConfirmation
+SubscriptionConfirmation [URL: https://sns.us-west-2.amazonaws.com/?Action=ConfirmSubscription&TopicArn=arn:aws:sns:us-west-2:487294562089:wp_newsletter_bounce&Token=2336412f37fb687f5d51e6e241d59b68c5f3534d5685f6501e6eb75d2cedbeaef0ebf555013d385515335dcb6bce33d0086ed76a28b7d29bf476ca1ef6b122e57922c3a96edfa5a32c482296b014c5e7108e0d16bcd3458aeb9fc8f3761e7fbb05f48386462da4a4b2c98b857108f137e2c43db82a3acf7262e21d2f04ea8ac1]
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+Process soft bounces: 1
+[0] recipients
+Process soft bounces: 1
+[0] recipients
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+Process soft bounces: 1
+[0] recipients
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+Process soft bounces: 1
+[0] recipients
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+Process soft bounces: 1
+[0] recipients
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+Process soft bounces: 1
+Bounce type: Transient
+[1] recipients
+Executing SQL: [update 468LoveWealthAbundance382_newsletter set status='B' where email=melissa@raimondiphotography.com limit 1]
+--- Handle the [Notification] notification
+Type: Notification
+Handle the message
+Process soft bounces: 1
+Bounce type: Transient
+[1] recipients
+Executing SQL: [update 468LoveWealthAbundance382_newsletter set status='B' where email=gemma@gemsmaquillage.com limit 1]

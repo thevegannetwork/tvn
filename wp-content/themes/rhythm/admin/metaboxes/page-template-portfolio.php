@@ -87,6 +87,15 @@ $sections[] = array(
 			'subtitle' => esc_html__('If on filters will be enabled.', 'rhythm'),
 			'default' => 1,
 		),
+		
+		array(
+			'id'        => 'filter-all-label',			
+			'type'      => 'text',
+			'title'     => esc_html__( 'Filter Label for "All Works"', 'rhythm' ),
+			'subtitle'  => esc_html__( 'Input different label for all works in filter', 'rhythm' ),
+			'default'   => '',
+			'required' => array('portfolio-enable-filter' ,'=', '1'),
+		),
 
 		array(
 			'id'        => 'filter-category',

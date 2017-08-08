@@ -1,0 +1,331 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
+
+
+/* Fonts */
+
+.tabordion h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+
+h1 {
+  color: #333;
+  font-family: arial, sans-serif;
+  margin: 1em auto;
+  width: 80%;
+}
+
+.tabordion p {
+    color: #fff;
+}
+
+/* SVG Icons */
+
+.tabordion svg {
+    vertical-align: middle;
+}
+
+.tabordion label svg {
+    margin-right: 15px;
+}
+
+
+/* Panels */
+
+
+.tabordion {
+  color: #333;
+  display: block;
+  font-family: arial, sans-serif;
+  margin: 0px auto 500px;
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 200px);
+}
+
+.tabordion input[name="sections"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.tabordion section {
+  display: block;
+}
+
+.tabordion section label {
+  background: #405466;
+  cursor: pointer;
+  display: block;
+  padding: 15px 20px;
+  position: relative;
+  width: 200px;
+  z-index:100;
+  color: #fff;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin: 8px 0px;
+}
+
+.tabordion section article {
+  display: none;
+  left: 200px;
+  width: calc(100% - 200px);
+  padding: 21px;
+  position: absolute;  
+  top: 0;
+  background-color: #4E667C;
+  color: #fff;
+}
+
+.tabordion section article:after {
+  background-color: #ccc;
+  bottom: 0;
+  content: "";
+  display: block;
+  left:-229px;
+  position: absolute;
+  top: 0;
+  z-index:1;
+}
+
+/* Options */
+
+.tnp-option, .tnp-option-title, .tnp-option-content {
+    display: table;
+}
+
+.tnp-option-content {
+    margin: 0px 0px 5px 21px;
+    background: #526d84;
+    border-radius: 2px;
+    padding: 10px 15px;
+}
+
+.tnp-option {
+    margin-bottom: 25px;
+}
+
+.tnp-panel-option {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tnp-option-title {
+    padding: 4px 15px;
+    color: #fff;
+    border-left: 6px solid #27AE60;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.tnp-option  select {
+    height: 20px;
+    margin: 0px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(http://cdn.thenewsletterplugin.com/leads/arrows.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 2px 5px;
+    line-height: 14px;
+}
+
+.tnp-option input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    padding: 2px 10px;
+    border: none;
+    border-bottom: solid 2px #c9c9c9;
+    transition: border 0.3s;
+}
+
+.tnp-option-color input {
+    border: none;
+}
+
+.tnp-option-color input[type=radio]:checked:before {
+    margin: 5px;
+}
+
+.tnp-option-textarea {
+    width: 550px;
+    display: block;
+    margin-top: 10px;
+}
+
+input[name="options[theme_title]"], input[name="options[theme_subscribe_label]"] {
+    display: block;
+    width: 550px;
+    margin-top: 10px;
+    line-height: 2em;
+}
+
+.tabordion input[name="sections"]:checked + label { 
+    background: #4E667C;
+    color: #fff;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.tabordion input[name="sections"]:checked ~ article {
+  display: block;
+}
+
+.tabordion .tnp-option-content label {
+    display: inline-block;
+    width: auto;
+    background-color: transparent;
+    margin: 0 0 0 5px;
+    padding: 0 5px;
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.tabordion .tnp-option-color {
+    display: block;
+    width: 150px;
+    padding: 10px 15px;
+    float: left;
+    margin: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+.tabordion .autumn {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/autumn@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .summer {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/summer@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .winter {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/winter@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .spring {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/spring@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .sunset {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/sunset@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .sky {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/sky@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .night {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/night@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tabordion .forest {
+    position:relative;
+    background-image: url(../wp-content/plugins/newsletter-leads/images/forest@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.tnp-option-color:nth-child(5) {
+    clear: both;
+}
+
+#options-position {
+    width:100px;
+}
+
+
+/* Tnp Tooltips */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -150px;
+    opacity: 0.1;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Override Buttons */
+
+.wp-core-ui input[type="button"]   {
+    background: #27AE60;
+    border-radius: 0px;
+    text-shadow: none;
+}
+
+.wp-core-ui input[type="button"]:hover {
+    background-color: #2ECC71;
+}
+
+.wp-core-ui .button-primary {
+    border-radius: 0px;
+    text-shadow: none;
+}

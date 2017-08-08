@@ -19,7 +19,15 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+
 /** The name of the database for WordPress */
+
+define('NEWSLETTER_FORM_MAX', 80);
+
+define('NEWSLETTER_LIST_MAX', 100);
+
+define('WP_MEMORY_LIMIT', '382M');
+
 define('DB_NAME', '382TVNSummerSolstice468');
 
 /** MySQL database username */

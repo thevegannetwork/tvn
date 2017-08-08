@@ -3,7 +3,7 @@
  */
 .insert-icon-form .select2-container {
 	width: 100%;
-	
+
 }
 
 .insert-icon-form .select2-container:before, .select2-result:before {
@@ -19,7 +19,7 @@
 }
 
 /**
- * Appearance>Menus styles 
+ * Appearance>Menus styles
  */
 .edit-menu-preview-icon {
 	float: left;
@@ -33,25 +33,29 @@
 }
 
 .menu-item-depth-1 .mega-menu-container,
-.menu-item-depth-2 .mega-menu-container, 
-.menu-item-depth-3 .mega-menu-container, 
+.menu-item-depth-2 .mega-menu-container,
+.menu-item-depth-3 .mega-menu-container,
 .menu-item-depth-4 .mega-menu-container,
 .menu-item-depth-5 .mega-menu-container {
 	display: none;
 }
 
 .menu-item-depth-1 .hide-navigation-label-container,
-.menu-item-depth-2 .hide-navigation-label-container, 
-.menu-item-depth-3 .hide-navigation-label-container, 
+.menu-item-depth-2 .hide-navigation-label-container,
+.menu-item-depth-3 .hide-navigation-label-container,
 .menu-item-depth-4 .hide-navigation-label-container,
 .menu-item-depth-5 .hide-navigation-label-container {
 	display: none;
 }
- 
-.menu-item-depth-3 .icon-menu-container, 
+
+.menu-item-depth-3 .icon-menu-container,
 .menu-item-depth-4 .icon-menu-container,
 .menu-item-depth-5 .icon-menu-container {
 	display: none;
+}
+
+.select2-drop {
+	z-index: 999999 !important;
 }
 
 /* WP-admin Styles */
@@ -70,7 +74,7 @@
 }
 
 
-/* TGM Notices Fix */ 
+/* TGM Notices Fix */
 #setting-error-tgmpa {
 	display: block;
 }

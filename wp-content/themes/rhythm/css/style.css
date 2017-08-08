@@ -123,17 +123,17 @@ Common styles
 ::selection{ color: #fff; background:#000; }
 
 .animate, .animate *{
-    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
-       -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+       -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
         -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
          -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
             transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .no-animate, .no-animate *{
-    -webkit-transition: 0 none !important;  
-       -moz-transition: 0 none !important;  
+    -webkit-transition: 0 none !important;
+       -moz-transition: 0 none !important;
         -ms-transition: 0 none !important;
-         -o-transition: 0 none !important;    
+         -o-transition: 0 none !important;
              transition:0 none !important;
 }
 

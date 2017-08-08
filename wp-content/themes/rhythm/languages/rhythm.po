@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Rhythm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-04 17:41+0200\n"
-"PO-Revision-Date: 2016-07-04 17:41+0200\n"
+"PO-Revision-Date: 2017-06-26 11:18+0300\n"
 "Last-Translator: \n"
 "Language-Team: Medialayout\n"
 "Language: en_US\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.9\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
 "esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
@@ -74,8 +74,7 @@ msgstr ""
 
 # @ mk_framework
 #: rhythm/admin/metaboxes/content-portfolio.php:7
-#: rhythm/admin/metaboxes/content.php:7
-#: rhythm/admin/options/customizer.php:121
+#: rhythm/admin/metaboxes/content.php:7 rhythm/admin/options/customizer.php:121
 msgid "Content"
 msgstr ""
 
@@ -101,8 +100,8 @@ msgstr ""
 #: rhythm/admin/metaboxes/title-wrapper.php:93
 #: rhythm/admin/options/export.php:89 rhythm/admin/options/footer.php:18
 #: rhythm/admin/options/footer.php:104 rhythm/admin/options/header.php:26
-#: rhythm/admin/options/header.php:51
-#: rhythm/admin/options/title-wrapper.php:75 rhythm/extensions/admin.php:63
+#: rhythm/admin/options/header.php:51 rhythm/admin/options/title-wrapper.php:75
+#: rhythm/extensions/admin.php:63
 msgid "Default"
 msgstr ""
 
@@ -141,8 +140,7 @@ msgstr ""
 #: rhythm/admin/metaboxes/footer.php:15 rhythm/admin/metaboxes/header.php:28
 #: rhythm/admin/metaboxes/title-wrapper.php:37
 #: rhythm/admin/options/export.php:86 rhythm/admin/options/footer.php:15
-#: rhythm/admin/options/header.php:23
-#: rhythm/admin/options/title-wrapper.php:23
+#: rhythm/admin/options/header.php:23 rhythm/admin/options/title-wrapper.php:23
 msgid "Template"
 msgstr ""
 
@@ -307,9 +305,8 @@ msgstr ""
 msgid "Change the header section configuration."
 msgstr ""
 
-#: rhythm/admin/metaboxes/header.php:15
-#: rhythm/admin/metaboxes/preheader.php:15 rhythm/admin/options/header.php:15
-#: rhythm/admin/options/preheader.php:15
+#: rhythm/admin/metaboxes/header.php:15 rhythm/admin/metaboxes/preheader.php:15
+#: rhythm/admin/options/header.php:15 rhythm/admin/options/preheader.php:15
 msgid "Enable Header"
 msgstr ""
 
@@ -319,8 +316,7 @@ msgstr ""
 
 #: rhythm/admin/metaboxes/header.php:34
 #: rhythm/admin/metaboxes/title-wrapper.php:43
-#: rhythm/admin/options/header.php:29
-#: rhythm/admin/options/title-wrapper.php:29
+#: rhythm/admin/options/header.php:29 rhythm/admin/options/title-wrapper.php:29
 msgid "Modern"
 msgstr ""
 
@@ -332,9 +328,8 @@ msgstr ""
 msgid "Full Width Header"
 msgstr ""
 
-#: rhythm/admin/metaboxes/header.php:45
-#: rhythm/admin/metaboxes/preheader.php:29 rhythm/admin/options/header.php:40
-#: rhythm/admin/options/preheader.php:24
+#: rhythm/admin/metaboxes/header.php:45 rhythm/admin/metaboxes/preheader.php:29
+#: rhythm/admin/options/header.php:40 rhythm/admin/options/preheader.php:24
 msgid "If on, this layout part will be full width."
 msgstr ""
 
@@ -456,8 +451,8 @@ msgstr ""
 #: rhythm/admin/metaboxes/header.php:177 rhythm/admin/options/header.php:161
 #: rhythm/templates/header/alternative-centered.php:65
 #: rhythm/templates/header/alternative.php:64
-#: rhythm/templates/header/default.php:64
-#: rhythm/templates/header/modern.php:46 rhythm/templates/header/side.php:60
+#: rhythm/templates/header/default.php:64 rhythm/templates/header/modern.php:46
+#: rhythm/templates/header/side.php:60
 msgid "Search"
 msgstr ""
 
@@ -853,8 +848,7 @@ msgstr ""
 
 # @ mk_framework
 #: rhythm/admin/metaboxes/person.php:12
-#: rhythm/admin/metaboxes/testimonial.php:12
-#: rhythm/admin/options/pages.php:243
+#: rhythm/admin/metaboxes/testimonial.php:12 rhythm/admin/options/pages.php:243
 msgid "Author"
 msgstr ""
 
@@ -2638,8 +2632,8 @@ msgstr ""
 #: rhythm/page-templates/faq.php:93
 #: rhythm/templates/header/alternative-centered.php:71
 #: rhythm/templates/header/alternative.php:70
-#: rhythm/templates/header/default.php:70
-#: rhythm/templates/header/modern.php:52 rhythm/templates/header/side.php:67
+#: rhythm/templates/header/default.php:70 rhythm/templates/header/modern.php:52
+#: rhythm/templates/header/side.php:67
 #: rhythm/templates/title/parts/search.php:12
 msgid "Start Search"
 msgstr ""
@@ -2647,8 +2641,8 @@ msgstr ""
 #: rhythm/page-templates/faq.php:96
 #: rhythm/templates/header/alternative-centered.php:74
 #: rhythm/templates/header/alternative.php:73
-#: rhythm/templates/header/default.php:73
-#: rhythm/templates/header/modern.php:55 rhythm/templates/header/side.php:70
+#: rhythm/templates/header/default.php:73 rhythm/templates/header/modern.php:55
+#: rhythm/templates/header/side.php:70
 #: rhythm/templates/title/parts/search.php:15
 msgid "Search..."
 msgstr ""
@@ -2754,8 +2748,7 @@ msgid "Total"
 msgstr ""
 
 # @ woocommerce
-#: rhythm/woocommerce/cart/cart.php:47
-#: rhythm/woocommerce/cart/mini-cart.php:59
+#: rhythm/woocommerce/cart/cart.php:47 rhythm/woocommerce/cart/mini-cart.php:59
 msgid "Remove this item"
 msgstr ""
 
